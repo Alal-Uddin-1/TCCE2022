@@ -109,264 +109,14 @@
 							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 						</span>
 					</a>
-					<!--<a href="">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>-->
-
 				</p>
 
 
 			</div>
-			<!--<div class="col-md-6 col-md-pull-6 hidden-xs">
-				    
-					<div class="mobile">
-						<div class="mobileSlider" style="top:0px;">
-							<ul class="slides">
-								<a style="margin-bottom:15px;" class="btn btn-lg btn-success actionBtn" href="https://myproconf.org/conferences/tcce-2022/" target="_blank"><i class="fa fa-mobile fa-2x pull-left"></i><span class="line2">Submission</span><br/><span class="line2">open</span></a>   <br>
-					<a class="btn btn-lg btn-success actionBtn" href="ju_map.html" target="_blank"><i class="fa fa-star icon fa-4x pull-left"></i><span class="line2">Venue </span><br/><span class="line2">Map</span></a>
-					           
-						</ul>
-							
-							    
-						
-						</div>
-					</div>-->
-			<!--<br>
-					<br>
-				<h2 style="color:white;font-size:30px;"><b>Camera Submission Deadline: 10 October, 2020</b></h2>
-					
-				</div>-->
-
 		</div>
 
 	</div>
-	<!--Slider-->
-	<style>
-		/*
-    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
-    code customized by Azmind.com
-*/
-		@media (min-width: 768px) and (max-width: 991px) {
 
-			/* Show 4th slide on md if col-md-4*/
-			.carousel-inner .active.col-md-4.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-				position: absolute;
-				top: 0;
-				right: -33.3333%;
-				/*change this with javascript in the future*/
-				z-index: -1;
-				display: block;
-				visibility: visible;
-			}
-		}
-
-		@media (min-width: 576px) and (max-width: 768px) {
-
-			/* Show 3rd slide on sm if col-sm-6*/
-			.carousel-inner .active.col-sm-6.carousel-item+.carousel-item+.carousel-item {
-				position: absolute;
-				top: 0;
-				right: -50%;
-				/*change this with javascript in the future*/
-				z-index: -1;
-				display: block;
-				visibility: visible;
-			}
-		}
-
-		@media (min-width: 576px) {
-			.carousel-item {
-				margin-right: 0;
-			}
-
-			/* show 2 items */
-			.carousel-inner .active+.carousel-item {
-				display: block;
-			}
-
-			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
-				transition: none;
-			}
-
-			.carousel-inner .carousel-item-next {
-				position: relative;
-				transform: translate3d(0, 0, 0);
-			}
-
-			/* left or forward direction */
-			.active.carousel-item-left+.carousel-item-next.carousel-item-left,
-			.carousel-item-next.carousel-item-left+.carousel-item,
-			.carousel-item-next.carousel-item-left+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(-100%, 0, 0);
-				visibility: visible;
-			}
-
-			/* farthest right hidden item must be also positioned for animations */
-			.carousel-inner .carousel-item-prev.carousel-item-right {
-				position: absolute;
-				top: 0;
-				left: 0;
-				z-index: -1;
-				display: block;
-				visibility: visible;
-			}
-
-			/* right or prev direction */
-			.active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-			.carousel-item-prev.carousel-item-right+.carousel-item,
-			.carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(100%, 0, 0);
-				visibility: visible;
-				display: block;
-				visibility: visible;
-			}
-		}
-
-		/* MD */
-		@media (min-width: 768px) {
-
-			/* show 3rd of 3 item slide */
-			.carousel-inner .active+.carousel-item+.carousel-item {
-				display: block;
-			}
-
-			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
-				transition: none;
-			}
-
-			.carousel-inner .carousel-item-next {
-				position: relative;
-				transform: translate3d(0, 0, 0);
-			}
-
-			/* left or forward direction */
-			.carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(-100%, 0, 0);
-				visibility: visible;
-			}
-
-			/* right or prev direction */
-			.carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(100%, 0, 0);
-				visibility: visible;
-				display: block;
-				visibility: visible;
-			}
-		}
-
-		/* LG */
-		@media (min-width: 991px) {
-
-			/* show 4th item */
-			.carousel-inner .active+.carousel-item+.carousel-item+.carousel-item {
-				display: block;
-			}
-
-			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
-				transition: none;
-			}
-
-			/* Show 5th slide on lg if col-lg-3 */
-			.carousel-inner .active.col-lg-3.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-				position: absolute;
-				top: 0;
-				right: -25%;
-				/*change this with javascript in the future*/
-				z-index: -1;
-				display: block;
-				visibility: visible;
-			}
-
-			/* left or forward direction */
-			.carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(-100%, 0, 0);
-				visibility: visible;
-			}
-
-			/* right or prev direction //t - previous slide direction last item animation fix */
-			.carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-				position: relative;
-				transform: translate3d(100%, 0, 0);
-				visibility: visible;
-				display: block;
-				visibility: visible;
-			}
-		}
-	</style>
-
-	<script>
-
-		/*
-			Carousel
-		*/
-		$('#carousel-example').on('slide.bs.carousel', function (e) {
-			/*
-				CC 2.0 License Iatek LLC 2018 - Attribution required
-			*/
-			var $e = $(e.relatedTarget);
-			var idx = $e.index();
-			var itemsPerSlide = 5;
-			var totalItems = $('.carousel-item').length;
-
-			if (idx >= totalItems - (itemsPerSlide - 1)) {
-				var it = itemsPerSlide - (totalItems - idx);
-				for (var i = 0; i < it; i++) {
-					// append slides to end
-					if (e.direction == "left") {
-						$('.carousel-item').eq(i).appendTo('.carousel-inner');
-					}
-					else {
-						$('.carousel-item').eq(0).appendTo('.carousel-inner');
-					}
-				}
-			}
-		});
-	</script>
-	<!-- Top content 
-<div class="top-content">
-    <div class="container">
-        <div id="carousel-example" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner row w-100 mx-auto" role="listbox">
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-                    <img src="profKIM.PNG" height="250px" width="250px" class="img-fluid mx-auto d-block" alt="img1">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="sazzadSir.jpg" height="250px" width="250px" class="img-fluid mx-auto d-block" alt="img2">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="julhas.jpg" height="250px" width="250px" class="img-fluid mx-auto d-block" alt="img3">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="ningzhong.jpg" height="250px" width="250px"class="img-fluid mx-auto d-block" alt="img4">
-                </div>
-                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-                    <img src="aninda.JPG" height="250px" width="250px"class="img-fluid mx-auto d-block" alt="img5">
-                </div>
-              
-            </div>
-            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-</div>
-
-
-Slider-->
 
 	<div id="" class="altWrap" style="padding-top:5px">
 		<div class="container">
@@ -376,9 +126,6 @@ Slider-->
 					<h2 class="sectionTitle">Important Announcements</h2>
 
 					<!--	<hr style="border-width:0;color:red;background-color:red">-->
-
-
-
 					<div class="row">
 
 						<h3 class="card-title"><strong>Notice<sup style="color:red">**</sup>: </strong><em
@@ -472,18 +219,12 @@ Slider-->
 									<h4><strong>Note<sup style="color:red">**</sup>: </strong>Participants will get
 										Certificate of Participation and a Conference kit</h4>
 									</p>
-									<!--
-									<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" target="_blank"
-										class="btn btn-primary">Click Here for Registration</a>
-									-->
+									
 									<a href="#" target="_blank" class="btn btn-primary">Click Here for Registration</a>
 								</div>
 							</div>
 
 						</div>
-
-
-
 						<div class="col-sm-4">
 							<div class="card">
 								<div class="card-body">
@@ -510,13 +251,8 @@ Slider-->
 							</div>
 						</div>
 					</div>
-
-
-
 					<br>
 					<br>
-
-
 					<div id="abouticeeictwrap" class="altWrap" style="padding-top:50px; background-color: azure;">
 						<h2 class="sectionTitle">TCCE 2022</h2>
 
@@ -579,15 +315,11 @@ Slider-->
 										<li>IoT for Smart Applications</li>
 
 									</ul>
-
-
 								</ul>
-
 							</div>
 
 
 							<div class="col-sm-4">
-
 								<ul class="priceTable">
 									<h4>Track 4: Network and Security</h4>
 									<ul class="features">
@@ -601,26 +333,6 @@ Slider-->
 										<li>Block Chain</li>
 										<li>Cyber Physical System</li>
 										<li>Ubiquitous Network</li>
-										<!--
-<li>Cross-layer Optimization and Control</li>
-<li>Cyber-physical Systems</li>
-<li>Data Center Networking</li>
-<li>Delay Tolerant Networks</li>
-<li>Game Theory in Networks</li>
-<li>Localization and Location-based Services</li>
-<li>Mobile Cloud Computing</li>
-<li>Network Management</li>
-<li>Network Measurement and Analysis</li>
-<li>Quality of Service and Resource Management</li>
-<li>Smart Communications Systems</li>
-<li>Vehicular Networks</li>
-<li>Wireless Sensor Networks</li>
-<li>Green Networking</li>
-<li>Block Chain</li>
-<li>Cyber Physical System</li>
-<li>Ubiquitous Network</li>-->
-
-
 									</ul>
 
 									<h4>Track 5: Signal Processing, Computer Vision & Rhythm Engineering </h4>
@@ -640,25 +352,6 @@ Slider-->
 
 							</div>
 						</div>
-
-						<!--
-<div class="row">
-<div class="col-sm-8 col-md-6 col-lg-6">
-<ul class="list-group">
-<li class="list-group-item">Cognitive Science: Cognitive Psychology and Cognitive Neuroscience</li>
-<li class="list-group-item">Computational Neuroscience</li>
-<li class="list-group-item">Artificial Intelligence, Soft Computing</li>
-<li class="list-group-item">Signal Processing</li>
-<li class="list-group-item">Cryptography: Image Processing, Coding Theory</li>
-<li class="list-group-item">Modelling and Numerical Simulation: Mathematical Biology, Green Computing</li>
-<li class="list-group-item">Optimization: Theory and Applications</li>
-<li class="list-group-item">Information Retrieval and Applications</li>
-<li class="list-group-item">Health informatics</li>
-
-</ul>
-</div>
-</div>-->
-						
 						<div>
 							<h2 align="center" style="color:#428BCA; font-weight: bold; margin-bottom: 20px;">Objectives of the Conference</h2>
 							<p align="justify">With increasing complex situations being modelled to find reasonable
@@ -695,18 +388,6 @@ Slider-->
 
 								</div>
 							</div>
-
-
-							<!--
-<br>
-<div>
-<h2 >About IIT</h2>
-<p align="justify">
-Institute of Information Technology started with a modest beginning in 1987 with the aim to provide help in research in the field of computer and computing related disciplines. Later in 2009, it started undergraduate program in Information technology where the aim is to provide IT specialist of the highest calibre who shall involve in research, design and development. IIT Jahangirnagar University provides its students with plentiful opportunities to get experienced in the working of the industry, national and international level IT competitions and also in real-life projects attached in the course curriculum. IIT is now offering different diverse programs including under-graduate, MS, Ph.D, Short Courses etc.  Undergraduate, Postgraduate and Ph.D. students reside on the campus and thereby get full opportunity to participate in co-curricular and extra-curricular activities. With most of the faculty members also residing in the campus, there is a unique, close and family–like relationship between students and teachers.</p>
-
-</div>
--->
-
 							<div class="row" style="text-align: center;">
 								<h2>Conference Publications and Special Issues</h2>
 								<div class="col-sm-3">
@@ -719,8 +400,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 												Systems and Computing, Springer</a></figcaption>
 									</ul>
 								</div>
-
-
 								<h2>Journals</h2>
 								<div class="row">
 									<div class="col-sm-2">
@@ -731,8 +410,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 										<figcaption class="figure-caption"><a
 												href="https://www.springer.com/series/16136">Rhythm Engineering,
 												Springer-Nature</a></figcaption>
-
-
 									</div>
 
 									<div class="row">
@@ -744,8 +421,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 											<figcaption class="figure-caption"><a
 													href="https://www.mdpi.com/journal/entropy/special_issues/entropy_image">Entropy,
 													MDPI</a></figcaption>
-
-
 										</div>
 
 										<div class="col-sm-2">
@@ -765,8 +440,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 													href="https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110">International
 													Journal of Ambient Computing and Intelligence, IGI Global</a>
 											</figcaption>
-
-
 										</div>
 
 									</div>
@@ -789,110 +462,19 @@ Institute of Information Technology started with a modest beginning in 1987 with
 
 											</ul>
 										</div>
-
-
 									</div>
-
-
-
 								</div>
 
 								</p>
 							</div>
-
-
 						</div>
 					</div>
 
 				</div>
-			</div> <!-- /about iceeict -->
-
-			<!--
-<div id="testimonialsWrap" >
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h2 class="sectionTitle">ICEEICT 2014</h2>
-					<h5 align="center"><a href="iceeict2014.php">See Details</a></h5>
-				</div>
 			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-							<div class="col-sm-4">
-								<img src="image2014/iceeict2014.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Photo Session at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/minister.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Education Minister at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/opening.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Opening Of iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-							</li>
-							<li>
-							<div class="col-sm-4">
-									<img src="image2014/poster.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Opening Of Poster Presentation at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/project.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Project Show"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/technical.jpg" height="250" class="img-rounded">
-								
-								<div class="quote">"Technical Session at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-							</li>
-							
-							<li>
-							<div class="col-sm-4">
-									<img src="image2014/iit.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Photo Session at icEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/2nd prize.jpg"  height="250" class="img-rounded">
-								
-								<div class="quote">"Award for paper at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-								<div class="col-sm-4">
-									<img src="image2014/student.jpg" height="250" class="img-rounded">
-								
-								<div class="quote">"Photo Session at iCEEiCT-2014"</div>
-								<div class="author">iCEEiCT-2014</div>
-								</div>
-							</li>
-							
-							
-							
-						</ul>
-					</div>
-				</div>
-			</div>-->
 		</div>
-	</div> <!-- /testimonialsWrap -->
 	</div>
-
-	<!--keynote speaker here-->
+	</div>
 
 
 	<div id="keynoteWrap" class="altWrap" style="padding-top:50px; text-align: center">
@@ -1159,9 +741,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 										</div>
 									</div>
 								</div>
-
-
-					</div>
+							</div>
 
 
 				</div>
@@ -1170,10 +750,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 			<!--first column end -->
 		</div>
 	</div>
-
-
-
-
 
 	<div id="committeeWrap" style="padding-top:50px">
 		<div class="container">
@@ -1281,10 +857,8 @@ Institute of Information Technology started with a modest beginning in 1987 with
 
 											<ul class="features">
 
-
-
-
 											</ul>
+										</ul>
 									</div>
 
 									<div class="modal-footer">
@@ -1410,11 +984,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 						</ul>
 						<h4>Project and Exhibition:</h4>
 						<ul class="features">
-							<!--<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#exampleModal">
-								Click Here to see AC
-							</button>
-						-->
+							
 							<li>Md. Sazzad Hossain<br> CSE, MBSTU
 							</li>
 							<li>Joy Krishno Saha<br> TE, MBSTU</li>
@@ -1436,99 +1006,6 @@ Institute of Information Technology started with a modest beginning in 1987 with
 						</ul>
 
 					</ul>
-
-						
-
-						
-
-
-						<!--
-						<h4>Technical Program Committee</h4>
-						<ul class="features">
-							<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#exampleModal1">
-								Click Here to see TPC
-							</button>
-
-						
-							<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
-								aria-labelledby="exampleModalLabel" aria-hidden="true">
-								<div class="modal-dialog" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalLabel">Technical Program
-												Committee</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											<ul class="priceTable">
-
-												<ul class="features">
-													<li>Muhammad Arifur Rahman, Physics, JU</li>
-													<li>Sajjad Waheed, ICT, MBSTU</li>
-													<li>Md. Zahidur Rahman, CSE, GUB</li>
-													<li>Muhammad Golam Kibria, CSE, ULAB</li>
-													<li>Md. Majharul Haque, Deputy Director, Bangladesh Bank</li>
-													<li>Samsul Arefin, CSE, CUET</li>
-													<li>Md. Obaidur Rahman, CSE, DUET</li>
-													<li>Mustafa Habib Chowdhury, EEE, IUB</li>
-													<li>Marzia Hoque-Tania, FSE, ARU, UK</li>
-													<li>Antesar Shabut, CSE, Leeds Trinity University</li>
-													<li>Md. Khalilur Rhaman, BRAC University, BD</li>
-													<li>Md. Hanif Seddiqui, University of Chittagong, BD</li>
-													<li>M.M.A. Hashem, KUETy, BD</li>
-													<li>Tomonori Hashiyama, The University of
-														Electro-Communications, Japan</li>
-													<li>Wladyslaw Homenda, Warsaw University of Technology, Poland
-													</li>
-													<li>M. Moshiul Hoque, CUET, BD</li>
-													<li>A. B. M. Aowlad Hossain, KUET, BD</li>
-													<li>Tahera Hossain, Kyushu Institute of Technology, Japan</li>
-													<li>Belayat Hossain, University of Hyogo, Japan</li>
-													<li>Sheikh Md. Rabiul Islam, KUET, BD</li>
-													<li>Manohar Das, Oakland University, USA</li>
-													<li>Kaushik Deb, CUET, BD</li>
-													<li>Carl James Debono, University of Malta, Malta</li>
-													<li>M Ali Akber Dewan, Athabasca University, Canada</li>
-													<li>Belayat Hossain, University of Hyogo, JapanNiraj Doshi,
-														Loughborough University, UK</li>
-													<li>Khoo Bee Ee, Universiti Sains Malaysia, Malaysia</li>
-													<li>Ashik Eftakhar, Nikon Corporation, Japan</li>
-													<li>Md. Tajuddin Sikder, Jahangirnagar University, Bangladesh
-													</li>
-													<li>Mrs. Shayla Islam, UCSI, Malaysia</li>
-													<li>Md. Zahidul Islam, Green University, Bangladesh</li>
-													<li>Antony Lam, Mercari Inc. Japan</li>
-													<li>Ryote Suzuki, Japan</li>
-													<li>Md. Golam Rashed, Rajshahi University, Bangladesh</li>
-													<li>MOhammad Sheikh Sadi, KUET, Bangladesh</li>
-													<li>Tushar kanti Shaha, JKKNIU, Bangladesh</li>
-													<li>M. Shazzad Hosain, NSU, Bangladesh</li>
-													<li>M. Mostafizur Rahman, AIUB, Bangladesh</li>
-													<li>Tabin Hasan, AIUB, Bangladesh</li>
-													<li>Aye Su Phyo, Computer University Kalay, Myanmer</li>
-													<li>Md. Shahedur Rahman, Dept. of Biotechnology & Genetic
-														Engineering, JU</li>
-													<li>Lu Cao, Saitama University, Japan</li>
-													<li>Nihad Adnan,Dept. of Microbiology, JU</li>
-													<li>Mohammad Firoz Ahmed,Dept. of Microbiology, JU </li>
-													<li>A. S. M. Sanwar Hosen, JNU, South Korea</li>
-													<li>Mahabub Hossain, ECE, HSTU</li>
-												</ul>
-											</ul>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary"
-												data-dismiss="modal">Close</button>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						-->
-
 				</div>
 			</div>
 		</div>
@@ -1543,14 +1020,8 @@ Institute of Information Technology started with a modest beginning in 1987 with
 			<div class="col-md-2">
 			</div>
 			<div class="col-md-8">
-
-
 				<img src="{{asset('frontend/assets/img/ugc.jpg')}}" style="border-radius: 10px; width:500px%; height:400px;" alt="...">
-
 			</div>
-
-
-
 			<div class="col-md-2">
 			</div>
 
@@ -1566,29 +1037,12 @@ Institute of Information Technology started with a modest beginning in 1987 with
 				<div class="col-xs-12">
 					<h2 class="sectionTitle">Mode of Conference</h2>
 
-					<!--<h3 class="sectionTitle">Virtual</h3>-->
-					<!--<h3 class="sectionTitle"><a href="ju_map.html" target="_blank">See Google Map Location</a></h3>-->
 					<div class="imgWrap">
 						<img class="img-responsive"  style="border-radius: 10px;" src="{{asset('frontend/assets/img/Virtual-image.jpg')}}" />
 					</div>
 				</div>
 			</div>
 			<div class="row" style="margin-top:20px; background-color:azure;">
-			<!--
-				<div class="col-md-5 col-md-offset-1">
-					<div class="imgWrap">
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/main_gate.jpg')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/mbstu1.jpg')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/mbstu2.png')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/mbstu3.jpg')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/mbstu-buddigibi.jpg')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/night-viwe-mbstu.jpg')}}" />
-						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/third-academic-building.jpg')}}" />
-					</div>
-			
-				
-				</div>
-			-->
 				<div class=col-md-6>
 					<div class="row">
 						<div class="col-md-6">
@@ -1759,39 +1213,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 			</div>
 		</div>
 	</div>
-	<!-- /papersubmissionWrap -->
-	<!--
-	<div id="paperWrap" class="altWrap" style="padding-top:100px">
-		<div class="container">
-		    <div class="row">
-				<div class="col-xs-12">
-					<h2 class="sectionTitle">PAPER SUBMISSION GUIDELINES</h2>
-				</div>
-			</div>
-			
-				
-					
-<p align="justify">
-Papers must be submitted electronically in a single-column springer format (8 to max 10 pages), <a href ="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">templates</a>  ).</br>
-Submitted papers will undergo a double-blind peer-review process, coordinated by the Technical Program Committee.</br>
-
-
-Authors should consult Springer’s <a href ="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf">authors’ guidelines</a> and use their proceedings templates, either for <a href = "ftp://ftp.springernature.com/cs-proceeding/svproc/templates/ProcSci_TeX.zip">LaTeX</a> or for <a href = "ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Word</a>, for the preparation of their papers. </br>
-Springer encourages authors to include their ORCIDs in their papers.
-					</p>
-<h3>Paper submission will be done through ProConf</h3>
-Submit you paper electronically through our <a href = "https://myproconf.org/conferences/tcce-2022/">myProconf</a> submission portal.
-<h4>Note for full paper submissions:</h4>
-<ul>
-    <li>Authors are strongly encouraged to use Springer manuscript submission guidelines ( available here ) for the initial submissions. All papers must be submitted electronically in PDF and DOC/RTF format in the Springer style.</li>
-    <li> Although we accept submissions in the form of PDF, PS, and DOC/RTF files, you are strongly encouraged to generate a PDF version for your paper before submitting it. It is highly recommended to use LaTeX to prepare your PDF submission.</li>
-</ul>
-					
-				
-			</div>
-		</div>
-	</div> -->
-	<!-- /papersubmissionWrap -->
+	
 
 
 	<div id="paperWrap" class="altWrap" style="padding-top:50px">
@@ -1982,10 +1404,6 @@ Submit you paper electronically through our <a href = "https://myproconf.org/con
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Expected Publication Date</span> <h2 style="color:Tomato;">16 December 2022</h2>
 								</li>
 							</ul>
-
-
-
-
 						</div>
 					</div>
 				</div>
@@ -2076,9 +1494,10 @@ Submit you paper electronically through our <a href = "https://myproconf.org/con
 							01711 932323 </br>
 							For more query <a href="mailto: info-tcce@mbstu.ac.bd">info-tcce@mbstu.ac.bd</a>
 						</p>
-
 					</div>
 				</div>
+			</div>
+		</div>
 	</footer>
 
 
