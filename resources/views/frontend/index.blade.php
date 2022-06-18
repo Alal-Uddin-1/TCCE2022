@@ -517,7 +517,7 @@ Slider-->
 					<br>
 
 
-					<div id="abouticeeictwrap" class="altWrap" style="padding-top:100px">
+					<div id="abouticeeictwrap" class="altWrap" style="padding-top:50px; background-color: azure;">
 						<h2 class="sectionTitle">TCCE 2022</h2>
 
 						<h2>About TCCE 2022</h2>
@@ -707,13 +707,13 @@ Institute of Information Technology started with a modest beginning in 1987 with
 </div>
 -->
 
-							<div class="row">
+							<div class="row" style="text-align: center;">
 								<h2>Conference Publications and Special Issues</h2>
 								<div class="col-sm-3">
 									<h2>Proceedings</h2>
 									<ul>
 										<img src="{{asset('frontend/assets/img/Springer_AISC_Web.jpg')}}" alt="..." height="150px"
-											width="150px" alt="..." class="rounded">
+											width="150px" border-radius="10px" alt="..." class="rounded-circle">
 										<figcaption class="figure-caption"><a
 												href="https://www.springer.com/series/11156">Advances in Intelligent
 												Systems and Computing, Springer</a></figcaption>
@@ -895,7 +895,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 	<!--keynote speaker here-->
 
 
-	<div id="keynoteWrap" class="altWrap" style="padding-top:100px">
+	<div id="keynoteWrap" class="altWrap" style="padding-top:50px; text-align: center">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1175,7 +1175,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 
 
 
-	<div id="committeeWrap" style="padding-top:100px">
+	<div id="committeeWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1537,21 +1537,21 @@ Institute of Information Technology started with a modest beginning in 1987 with
 	<!-- /committee wrap -->
 
 	<div class="container">
-		<div class="row">
+		<div class="row" style="text-align: center;">
 
 			<h2 class="sectionTitle">Financial Support</h2>
-			<div class="col-md-4">
+			<div class="col-md-2">
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-8">
 
 
-				<img src="{{asset('frontend/assets/img/ugc.jpg')}}" style="border-radius: 10px;" alt="...">
+				<img src="{{asset('frontend/assets/img/ugc.jpg')}}" style="border-radius: 10px; width:500px%; height:400px;" alt="...">
 
 			</div>
 
 
 
-			<div class="col-md-4">
+			<div class="col-md-2">
 			</div>
 
 
@@ -1560,7 +1560,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 
 
 
-	<div id="productWrap" class="altWrap" style="padding-top:100px">
+	<div id="productWrap" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1573,7 +1573,8 @@ Institute of Information Technology started with a modest beginning in 1987 with
 					</div>
 				</div>
 			</div>
-			<div class="row" style="margin-top:20px">
+			<div class="row" style="margin-top:20px; background-color:azure;">
+			<!--
 				<div class="col-md-5 col-md-offset-1">
 					<div class="imgWrap">
 						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/main_gate.jpg')}}" />
@@ -1584,8 +1585,53 @@ Institute of Information Technology started with a modest beginning in 1987 with
 						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/night-viwe-mbstu.jpg')}}" />
 						<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;" src="{{asset('frontend/assets/img/third-academic-building.jpg')}}" />
 					</div>
+			
+				
 				</div>
-				<div class="col-md-5">
+			-->
+				<div class=col-md-6>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px; width: 100%; height: 200px;" src="{{asset('frontend/assets/img/mbstu-3.jpg')}}" />
+						</div>
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px; width: 100%; height: 200px;" src="{{asset('frontend/assets/img/old-academic.jpg')}}" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/mbstu2.png')}}" />
+						</div>
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/mbstu3.jpg')}}" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/mbstu-buddigibi.jpg')}}" />
+						</div>
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/night-viwe-mbstu.jpg')}}" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/main_gate.jpg')}}" />
+						</div>
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/building-3.jpg')}}" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/mbstu-07.jpg')}}" />
+						</div>
+						<div class="col-md-6">
+							<img class="img-responsive" style="margin-top: 10px;  border-radius:10px;width: 100%; height: 200px;" src="{{asset('frontend/assets/img/building-6.jpg')}}" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
 					<div class="productFeatures clearfix">
 						<div class="col-xs-2 icon">
 							<span class="fa-stack fa-lg">
@@ -1643,7 +1689,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 	</div>
 	<!-- /productWrap -->
 
-	<div id="pricingWrap" style="padding-top:100px">
+	<div id="pricingWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1652,6 +1698,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
+					
 					<ul class="priceTable">
 						<ul class="features">
 							<li>Cognitive Science: Cognitive Psychology and Cognitive Neuroscience</li>
@@ -1659,10 +1706,8 @@ Institute of Information Technology started with a modest beginning in 1987 with
 							<li>Artificial Intelligence, Soft Computing</li>
 							<li>Signal Processing</li>
 							<li>Cryptography: Image Processing, Coding Theory</li>
-
 						</ul>
-
-					</ul>
+					</ul>		
 				</div>
 
 				<div class="col-sm-6">
@@ -1683,7 +1728,7 @@ Institute of Information Technology started with a modest beginning in 1987 with
 	</div> <!-- /pricingWrap -->
 
 
-	<div id="featureWrap" class="altWrap" style="padding-top:100px">
+	<div id="featureWrap" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1749,7 +1794,7 @@ Submit you paper electronically through our <a href = "https://myproconf.org/con
 	<!-- /papersubmissionWrap -->
 
 
-	<div id="paperWrap" class="altWrap" style="padding-top:100px">
+	<div id="paperWrap" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1911,7 +1956,7 @@ Submit you paper electronically through our <a href = "https://myproconf.org/con
 	</div> <!-- /papersubmissionWrap -->
 
 
-	<div id="contactWrap" style="padding-top:100px">
+	<div id="contactWrap" style="padding-top:50px">
 
 		<div class="overlay">
 			<div class="container">
@@ -1924,17 +1969,17 @@ Submit you paper electronically through our <a href = "https://myproconf.org/con
 					<div class="col-xs-12 text-center">
 						<div class="blurb">
 							<ul style="list-style-type:none;">
-								<li>Paper Submission Deadline <h2 style="color:Tomato;">
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span><h2 style="color:Tomato;">
 										<!--<s>01 August 2020</s> <br> <s>31 August 2020</s> -->1 August 2022
 									</h2>
 								</li>
-								<li>Acceptance Notification <h2 style="color:Tomato;">01 October 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Acceptance Notification</span> <h2 style="color:Tomato;">01 October 2022</h2>
 								</li>
-								<li>Camera Ready Submission <h2 style="color:Tomato;">10 October 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Camera Ready Submission </span><h2 style="color:Tomato;">10 October 2022</h2>
 								</li>
-								<li>Registration Period <h2 style="color:Tomato;">01 Oct 2022 - 12 Oct 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span><h2 style="color:Tomato;">01 Oct - 12 Oct 2022</h2>
 								</li>
-								<li>Expected Publication Date <h2 style="color:Tomato;">16 December 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Expected Publication Date</span> <h2 style="color:Tomato;">16 December 2022</h2>
 								</li>
 							</ul>
 

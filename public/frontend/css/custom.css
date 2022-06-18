@@ -46,7 +46,7 @@ h3.sectionTitle {
 .altWrap {
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
-	background-color: #f7f7f7;
+	background-color:azure;
 }
 
 /**********************************************************************/
@@ -64,7 +64,7 @@ h3.sectionTitle {
 	background: url(../assets/img/80.png);
 	**/
 	
-	background: #C1F6BA;
+	background: #773A3D;
 	border: 0 none;
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -72,7 +72,7 @@ h3.sectionTitle {
 	line-height: 1;
     height: 40px;
     margin-top: 14px;
-    margin-bottom: 26px;
+    margin-bottom: 5px;
     padding: 0;
     width: 100%;
 	font-size: 40px;
@@ -104,7 +104,7 @@ h3.sectionTitle {
 }
 .navbar-inverse .navbar-nav > li > a {
 	font-family: 'Roboto Condensed',sans-serif;
-	color: #333333;
+	color: white;
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -253,6 +253,7 @@ h3.sectionTitle {
 #pricingWrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
+	
 }
 #pricingWrap .priceTable {
 	border: 1px solid #D9D9D9;
@@ -272,7 +273,7 @@ h3.sectionTitle {
 	font-size: 15px;
 	line-height: 1.7;
 	letter-spacing: 1.5px;
-	list-style-type: square;
+	list-style-type: none;
 }
 
 #pricingWrap .priceTable .title {
@@ -373,7 +374,7 @@ h3.sectionTitle {
 }
 #contactWrap .overlay {
     background: url("../assets/img/60.html");
-	padding-bottom: 60px;
+	padding-bottom: 10px;
 }
 #contactWrap h2.sectionTitle {
     border-bottom: 1px solid #fff;
@@ -381,7 +382,7 @@ h3.sectionTitle {
 #contactWrap .blurb {
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 /*
 #contactWrap label {
@@ -540,10 +541,11 @@ footer .social a .fa-inverse {
 }
 
 .objective{
-	background-color: #333333;
-	color: #FFFFFF
+	background-color:#C1F6BA;
+	color:black;
+	font-size: 15px;
 }
 .objective tr:hover{
-	background-color: #623A23;
-	color: #FFFFFF;
+	background-color:palegreen;
+	color: black;
 }
