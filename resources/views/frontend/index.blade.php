@@ -137,13 +137,13 @@
 									<h2 class="card-title"><strong>Important Dates</strong></h2>
 									<p class="card-text">
 										<b>Paper Submission Deadline:</b>
-										1 August 2022
+										16 August 2022
 										<b>Acceptance Notification:</b>
-										1 October 2022
+										01 October 2022
 										<b>Camera Ready Submission:</b>
 										10 October 2022
 										<b>Registration Period:</b>
-										1 Oct 2022 - 10 Oct 2022
+										01 Oct 2022 - 10 Oct 2022
 									</p>
 									<a href="https://myproconf.org/conferences/tcce-2022/app/login.php"
 										class="btn btn-primary" target="_blank">Submit Camera Ready Submission</a>
@@ -160,7 +160,7 @@
 
 									Sonali Bank Limited<br>
 
-									Mawlana Bhashani Science and Technology University Branch<br>
+									<!--Mawlana Bhashani Science and Technology University Branch<br>-->
 
 									Mawlana Bhashani Science and Technology university<br>
 									Santosh, Tangail-1902 
@@ -238,12 +238,13 @@
 									<p align="justify"><b>Student Registration grant will be given based on the quality
 											of the paper, reviewer comments, necessity, and available fund</b></p>
 
-
+									<!--
 									<strong style="color:red"><b>Important Notice:</b></strong>
 									<p align="justify"><b>Students who are asking for a waiver of registration, will get
 											the decision of the Organizing Committee by 09 October 2020. After the
 											decision on student registration waiver, Students must complete registration
 											by 12 October</b></p>
+									-->
 
 									<a class="btn btn-primary" target="_blank">Apply for Grant</a>
 									<!--link of apply for grant(href="https://docs.google.com/forms/d/e/1FAIpQLSd_935mFTsmgG2cLbUbtqJIur2OzBiFEwat0Eog9EbeLgxfQA/viewform")-->
@@ -389,49 +390,60 @@
 								</div>
 							</div>
 							<div class="row" style="text-align: center;">
-								<h2>Conference Publications and Special Issues</h2>
+								<h2 style="margin:20px;">Conference Publications and Special Issues</h2><br>
 								<div class="col-sm-3">
-									<h2>Proceedings</h2>
+									<!--<h2>Proceedings</h2>-->
 									<ul>
-										<img src="{{asset('frontend/assets/img/Springer_AISC_Web.jpg')}}" alt="..." height="150px"
+										<img src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px"
 											width="150px" border-radius="10px" alt="..." class="rounded-circle">
+										<!--
 										<figcaption class="figure-caption"><a
 												href="https://www.springer.com/series/11156">Advances in Intelligent
 												Systems and Computing, Springer</a></figcaption>
+										-->
 									</ul>
 								</div>
+								<!--
 								<h2>Journals</h2>
-								<div class="row">
-									<div class="col-sm-2">
+								-->
+								
+								<div class="col-sm-3">
 
 
 										<img src="{{asset('frontend/assets/img/rithm.jpg')}}" alt="..." height="150px" width="150px" alt="..."
 											class="rounded">
+										<!--
 										<figcaption class="figure-caption"><a
 												href="https://www.springer.com/series/16136">Rhythm Engineering,
 												Springer-Nature</a></figcaption>
-									</div>
+										-->
+								</div>
 
-									<div class="row">
-										<div class="col-sm-2">
+									
+								<div class="col-sm-3">
 
 
-											<img src="{{asset('frontend/assets/img/entropy.png')}}" alt="..." height="150px" width="150px"
+											<img src="{{asset('frontend/assets/img/brain informatics.jpg')}}" alt="..." height="150px" width="150px"
 												alt="..." class="rounded">
+												<!--
 											<figcaption class="figure-caption"><a
 													href="https://www.mdpi.com/journal/entropy/special_issues/entropy_image">Entropy,
 													MDPI</a></figcaption>
-										</div>
+											-->
+								</div>
 
-										<div class="col-sm-2">
+								<div class="col-sm-3">
 
-											<img src="{{asset('frontend/assets/img/bda.png')}}" alt="IJACI" height="150px" width="150px"
+											<img src="{{asset('frontend/assets/img/informatics.png')}}" alt="informatics" height="100px" width="250px"
 												alt="..." class="rounded">
+											<!--
 											<figcaption class="figure-caption"><a href="#">Big Data Ananlytics, BioMed
 													Central</a></figcaption>
+											-->
 
 
-										</div>
+								</div>
+										<!--
 										<div class="col-sm-2">
 
 											<img src="{{asset('frontend/assets/img/ijaci.png')}}" alt="Big Data Ananlytics" height="150px"
@@ -441,11 +453,12 @@
 													Journal of Ambient Computing and Intelligence, IGI Global</a>
 											</figcaption>
 										</div>
+										-->
 
-									</div>
-									<div class="row" style="text-align: center;">
-										<div class="col-sm-6">
-											<h2>Support Partner</h2>
+							</div>
+							<div class="row" style="text-align: center; margin: 20px;">
+										<div class="col-sm-4">
+											<h2>Support Partner</h2><br>
 											<ul>
 												<a href="http://www.acslab.info/">
 													<img src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px"
@@ -453,8 +466,17 @@
 												</a>
 											</ul>
 										</div>
-										<div class="col-sm-6">
-											<h2>Other Support</h2>
+										<div class="col-sm-4">
+											<h2>Publication Partner</h2><br>
+											<ul>
+												<a href="http://www.acslab.info/">
+													<img src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px"
+														width="350px"  class="rounded float-left">
+												</a>
+											</ul>
+										</div>
+										<div class="col-sm-4">
+											<h2>Other Support</h2><br>
 											<ul>
 
 												<img src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px"
@@ -462,11 +484,11 @@
 
 											</ul>
 										</div>
-									</div>
-								</div>
-
-								</p>
 							</div>
+						</div>
+
+								
+						</div>
 						</div>
 					</div>
 
@@ -778,6 +800,7 @@
 						<ul class="features">
 							<li>Chi-Sang Poon<br> Massachusetts Institute of Technology<br> USA
 							</li>
+							<li>Kanad Ray<br> Amity University<br> Rajasthan, India</li>
 							<li>Mufti Mahmud <br>Nottingham Trent University, UK</li>
 						</ul>
 						<h4>Organizing Chair:</h4>
@@ -785,7 +808,7 @@
 							<li>Sajjad Waheed<br>Dean, Faculty of Engineering, MBSTU
 							</li>
 						</ul>
-						<h4>Organizing Secretary:</h4>
+						<h4>Conference Secretary:</h4>
 						<ul class="features">
 							<li>Md. Ahsan Habib (Tareq)<br> ICT, MBSTU
 							</li>
@@ -800,16 +823,16 @@
 							</li>
 							<li>Subrata Ghosh<br> CSIR Northeast Institute of Science & Technology, Jorhat
 							</li>
-							<!--
+							
 							<li>Chi-Sang Poon<br> MIT, USA
 							</li>
-							-->
+							
 							<li>Jocelyn Faubert<br> University of Montreal, Canada
 							</li>
-							<!--
+							
 							<li>Mufti Mahmud<br> Nottingham Trent University, UK
 							</li>
-							-->
+							
 							<li>Shamim Al Mamun<br>Jahangirnagar University, Bangladesh</li>
 							<li>M. Shamim Kaiser<br>Jahangirnagar University, Bangladesh</li>
 						</ul>
@@ -822,9 +845,11 @@
 							<li>Anirban Bandyopadhyay<br>National Institute for Materials Science, Japan
 							</li>
 							<li>M. Shamim Kaiser<br>IIT, JU</li>
+						<!--
 						</ul>
 						<h4>Technical Co-Chair:</h4>
 						<ul class="features">
+						-->
 							<li>Md. Mahbubul Hoque<br>Dean, Faculty of Life Science, MBSTU
 							</li>
 							<li>Md. Anwar Hossain<br>Dean, Faculty of Science, MBSTU
@@ -833,9 +858,12 @@
 							</li>
 							<li>Md. Shorif Uddin<br> CSE, JU
 							</li>
+							<li>Md. Shahadat Hossain<br> CU, Bangladesh</li>
 							<li>Nilanjan Day<br> Techno India, Kolkata
 							</li>
+						<!--
 						</ul>
+						-->
 						
 						
 						
@@ -890,13 +918,15 @@
 							<li>Md. Roshidul Hasan<br>CS&IT, BSMRAU</li>
 							<li>Md. Obaidur Rahman<br>IICT, DUET</li>
 							<li>M. Mahbubur Rahman<br>CSIT, IU</li>
-							<li>lamgir Hossain<br>Teesside University, UK</li>
+							<li>alamgir Hossain<br>Teesside University, UK</li>
 							<li>Anirban Bandyopadhyay<br>NIMS, Japan</li>
 							<li>Ayman Alfalou<br>University of Brittany, France</li>
 							<li>Ekram Hossain<br>University of Manitoba, Canada</li>
 							<li>Latifur Khan<br>University of Texas, USA</li>
 							<li>M. Ashraful Alam<br>Purdue University, USA</li>
+							<!--
 							<li>Mohammad S. Alam<br>Texas A&M University, USA</li>
+							-->
 							<li>Mustafizur Rahman<br>Intel Co, USA</li>
 							<li>M. Zahid Hasan<br>Princeton University</li>
 							<li>N. Kishi<br>University of Electro-communication, Japan</li>
@@ -910,14 +940,16 @@
 							<li>Vijayan Asari<br>University of Dayton, USA</li>
 							<li>Yoshinori Kuno<br>SU, Japan</li>
 							<li>Yoshinori Kobayashi<br>SU, Japan</li>
+							<li>D J Brown<br> NTU, UK</li>
 						</ul>
-						
+						<!--
 						<h4>Organizing Co-Chair(s):</h4>
 						<ul class="features">
 							<li>Md. Sazzad Hossain<br> CSE, MBSTU</li>
 							<li>Md. Rokonuzzaman<br> TE, MBSTU</li>
 							<li>Md. Iqbal Mahmud<br> ME, MBSTU</li>
 						</ul>
+					-->
 
 					</ul>
 				</div>
@@ -930,53 +962,69 @@
 						<ul class="features">
 							<li>Monir Morshed<br> ICT, MBSTU
 							</li>
+							<!--
 							<li>Md. Hadifur Rahman<br> CSE, MBSTU</li>
 							<li>Bikash Kumar Paul<br> ICT, MBSTU</li>
+							-->
 						</ul>
-						<h4>Venue Preperation:</h4>
+						<h4>Venue and Accommodation Preperation:</h4>
 						<ul class="features">
 							<li>Md. Iqbal Mahmood<br> TE, MBSTU
 							</li>
+							<!--
 							<li>Md. Azharul Islam<br> TE, MBSTU</li>
+							-->
 						</ul>
 						<h4>Workshop:</h4>
 						<ul class="features">
 							<li>Md. Matiur Rahman<br> CSE, MBSTU
 							</li>
+							<!--
 							<li>Mosaddek Hassan<br> CSE, MBSTU</li>
 							<li>Md. Mahfuz Reza<br> CSE, MBSTU</li>
+							-->
 						</ul>
 						<h4>Special Session:</h4>
 						<ul class="features">
 							<li>Muhammad Shahin Uddin<br> ICT, MBSTU
 							</li>
+							<!--
 							<li>Mahbubul Bashar<br> TE, MBSTU</li>
 							<li>Tanvir Rahman<br>ICT, MBSTU</li>
+							-->
 						</ul>
 						<h4>Finance:</h4>
 						<ul class="features">
 							<li>Mostafa Kamal Nasir<br> CSE, MBSTU
 							</li>
+							<!--
 							<li>Md. Al Mamun<br> TE, MBSTU</li>
 							<li>Sordar Mohammad Shamim<br> ICT</li>
+							-->
 						</ul>
 						<h4>Refreshment:</h4>
 						<ul class="features">
 							<li>Mehedi Hasan Talukdar<br> CSE, MBSTU
 							</li>
+							<!--
 							<li>Md. Jayedul Hasan<br> TE, MBSTU</li>
+							-->
 						</ul>
 						<h4>Accomodation:</h4>
 						<ul class="features">
 							<li>A. S. M. Delowar Hossain<br> CSE, MBSTU
 							</li>
+							<!--
 							<li>Abu Bakkar Siddique<br> TE, MBSTU</li>
 							<li>Mst. Nargis Aktar<br> ICT, MBSTU</li>
+							-->
 						</ul>
+						<!--
 						<h4>Transportation:</h4>
 						<ul class="features">
 							<li>Md. Abir Hossain<br> ICT, MBSTU</li>
 						</ul>
+						-->
 						<h4>Local Arrangement:</h4>
 						<ul class="features">
 							<li>Mst. Nargis Aktar<br> ICT, MBSTU
@@ -987,15 +1035,21 @@
 							
 							<li>Md. Sazzad Hossain<br> CSE, MBSTU
 							</li>
+							<!--
 							<li>Joy Krishno Saha<br> TE, MBSTU</li>
 							<li>Md. Shishir Mia<br> CSE, MBSTU</li>
-
+							-->
 						</ul>
 						<h4>Publicity:</h4>
 						<ul class="features">
+							<!--
 							<li>Mst. Nargis Aktar<br> ICT, MBSTU</li>
 							<li>Lubna Yeasmin<br> CSE, MBSTU</li>
 							<li>Md. Mahbubur Rahman<br> TE, MBSTU</li>
+							-->
+							<li>Md. Abir Hossain<br> ICT, MBSTU</li>
+							<li>Shamim Al Mamun<br> JU, Bangladesh</li>
+							<li>M. Arifur Rahman<br> NTU, UK</li>
 						</ul>
 						
 						<h4>Website Management Chair:</h4>
@@ -1154,7 +1208,7 @@
 				<div class="col-sm-6">
 					
 					<ul class="priceTable">
-						<ul class="features">
+						<ul class="features scope">
 							<li>Cognitive Science: Cognitive Psychology and Cognitive Neuroscience</li>
 							<li>Computational Neuroscience</li>
 							<li>Artificial Intelligence, Soft Computing</li>
@@ -1166,7 +1220,7 @@
 
 				<div class="col-sm-6">
 					<ul class="priceTable">
-						<ul class="features">
+						<ul class="features scope">
 
 							<li>Optimization: Theory and Applications</li>
 							<li>Information Retrieval and Applications</li>
@@ -1198,7 +1252,7 @@
 						You may download pdf formats of the call for paper from the following links:
 					</p>
 
-					<a href="{{asset('frontend/files/cfp-paper.ai')}}" target="_blank"><button name="submit" type="button"
+					<a href="{{asset('frontend/files/cfp(modified).jpg')}}" target="_blank"><button name="submit" type="button"
 							class="btn btn-primary btn-lg">Download</button></a>
 				</div>
 				<div class="col-sm-6 text-center feature">
@@ -1391,15 +1445,13 @@
 					<div class="col-xs-12 text-center">
 						<div class="blurb">
 							<ul style="list-style-type:none;">
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span><h2 style="color:Tomato;">
-										<!--<s>01 August 2020</s> <br> <s>31 August 2020</s> -->1 August 2022
-									</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span><h2 style="color:Tomato;">16 August 2022</h2>
 								</li>
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Acceptance Notification</span> <h2 style="color:Tomato;">01 October 2022</h2>
 								</li>
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Camera Ready Submission </span><h2 style="color:Tomato;">10 October 2022</h2>
 								</li>
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span><h2 style="color:Tomato;">01 Oct - 12 Oct 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span><h2 style="color:Tomato;">01 Oct - 10 Oct 2022</h2>
 								</li>
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Expected Publication Date</span> <h2 style="color:Tomato;">16 December 2022</h2>
 								</li>

@@ -273,6 +273,14 @@ h3.sectionTitle {
 	font-size: 15px;
 	line-height: 1.7;
 	letter-spacing: 1.5px;
+	list-style-type: circle;
+}
+
+.priceTable .scope li{
+	color: #428BCA;
+	font-size: 15px;
+	line-height: 1.7;
+	letter-spacing: 1.5px;
 	list-style-type: none;
 }
 
