@@ -31,9 +31,9 @@ a {
 	transition: 0.25s;
 }
 h2.sectionTitle {
-	color: #428BCA;
+	color: #007ACC;
     font-size: 50px;
-    margin-top: 10px;
+    margin-top: 25px;
     text-align: center;
 	font-weight: 700;
     margin-bottom: 30px;
@@ -139,13 +139,28 @@ h3.sectionTitle {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	/*
+	-webkit-backdrop-filter: blur(5px);
+	-moz-backdrop-filter: blur(5px);
+	-o-backdrop-filter: blur(5px);
+	backdrop-filter: blur(2px);
+	*/
+
 	padding-bottom: 0px;
-    padding-top:140px;
+    padding-top:70px;
 	color: #fff;
-	opacity: .9;
 	margin-bottom: 0px;
+	height:623px;	
 	
 }
+.jumboText{
+	width: 1349px;
+	height: 552px;
+	margin-left: -45px;
+	background-color: rgba(0,0,0,.5);
+	
+}
+
 .jumbotron .mobile {
 	background-image: url("../assets/img/mobile.html");
     background-repeat: no-repeat;
@@ -545,15 +560,19 @@ footer .social a .fa-inverse {
 
 /*   others  */
 .biography{
-	margin-top: 5px;	
+	margin-top: 15px;	
 }
 
 .objective{
-	background-color:#C1F6BA;
+	background-color:#007ACC;
 	color:black;
 	font-size: 15px;
+	padding:15px;
+	border-radius: 15px;
 }
+
 .objective tr:hover{
 	background-color:palegreen;
 	color: black;
+	border-radius: 15px;
 }

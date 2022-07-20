@@ -46,7 +46,7 @@
 
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -55,10 +55,8 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#topWrap">
-					<span class="fa-stack fa-lg">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-					</span>TCCE<span class="title"> 2022</span>
+				<img style="margin-top: -5px; margin-right:-5px; border-radius: 20%; width: 30px; height: 30px;" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
+				TCCE<span class="title"> 2022</span>
 				</a>
 			</div>
 			<div class="collapse navbar-collapse appiNav">
@@ -80,38 +78,25 @@
 	</div>
 	<!--col-md-push-6-->
 	<div id="topWrap" class="jumbotron">
-		<div class="container">
-			<div class="col-md-12  jumboText">
+		<div class="container-fluid">
+			<div class="col-md-12 jumboText">
 				<br>
-				<h2 style="color:yellow; font-weight: bold; font-size: 28px; text-align:center;">4th International Conference on Trends in Computational and Cognitive
+				<h2 style="color:#007ACC; font-weight: bold; font-size: 40px; text-align:center;">4th International Conference on Trends in Computational and Cognitive
 					Engineering (TCCE-2022)</h2>
 				<h2 align="center" style="color:white; font-weight:bold;">17-18 December 2022</h2>
 				<h2 align="center" style="color:white; font-weight:bold;">Mawlana Bhashani Science and Technology University, Tangail,
 					Bangladesh</h2>
 				<h2 align="center" style="color:white"><strong> Conference Mode: Hybrid</strong></h2>
-
-				<h2 align="center"><a style="margin-bottom:-10px;" class="btn btn-lg btn-success actionBtn"
+				
+				<h2 align="center"><a style="margin-bottom:-10px; background-color:#007ACC; color: white;" class="btn btn-lg actionBtn"
 						href="files/TCCE 2022_MAH.pptx.pdf" target="_blank"><i
-							class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual</span><br /><span
-							class="line2">Sessions</span></a></h2>
+							class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual Sessions</a></h2>
+				<!--
 				<h2 align="center"><a style="margin-bottom:-10px; width:180px;" class="btn btn-lg btn-success actionBtn"
 						href="tcce2022_final-program.pdf" target="_blank"><i
 							class="fa fa-mobile fa-2x pull-left"></i><span class="line2">To Be</span><br /><span
 							class="line2">Announced</span></a></h2>
-
-
-
-
-				<p class="social">
-					<a href="https://www.facebook.com/Tcce2022-100200532638296/" target="_blank">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
-				</p>
-
-
+				-->
 			</div>
 		</div>
 
@@ -146,7 +131,7 @@
 										01 Oct 2022 - 10 Oct 2022
 									</p>
 									<a href="https://myproconf.org/conferences/tcce-2022/app/login.php"
-										class="btn btn-primary" target="_blank">Submit Camera Ready Submission</a>
+										class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission</a>
 									<br>
 									<br>
 									<h2 class="card-title"><strong style="color:red">Payment Information</strong></h2>
@@ -354,7 +339,7 @@
 							</div>
 						</div>
 						<div>
-							<h2 align="center" style="color:#428BCA; font-weight: bold; margin-bottom: 20px;">Objectives of the Conference</h2>
+							<h2 align="center" style="color:#007ACC; font-weight: bold; margin:30px 0px 20px 0px;;">Objectives of the Conference</h2>
 							<p align="justify">With increasing complex situations being modelled to find reasonable
 								answers, role of computations and cognitive
 								learning is becoming very important. The objective of the conference is to narrow down
@@ -362,7 +347,7 @@
 								practitioners and scientists together. so as to focus on the recent trends in
 								computational and cognitive
 								engineering. The conference will further help:</p>
-
+								<br>
 							<div class="row">
 								<div class="col-md-2">
 
@@ -390,12 +375,12 @@
 								</div>
 							</div>
 							<div class="row" style="text-align: center;">
-								<h2 style="margin:20px;">Conference Publications and Special Issues</h2><br>
+								<h2 style="margin:30px 0px 30px 0px; color:#007ACC; font-weight: bold;">Conference Publications and Special Issues</h2><br>
 								<div class="col-sm-3">
 									<!--<h2>Proceedings</h2>-->
 									<ul>
 										<img src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px"
-											width="150px" border-radius="10px" alt="..." class="rounded-circle">
+											width="150px" border-radius="10px" alt="...">
 										<!--
 										<figcaption class="figure-caption"><a
 												href="https://www.springer.com/series/11156">Advances in Intelligent
@@ -456,9 +441,9 @@
 										-->
 
 							</div>
-							<div class="row" style="text-align: center; margin: 20px;">
+							<div class="row" style="text-align: center; margin:40px 0px 20px 0px;;">
 										<div class="col-sm-4">
-											<h2>Support Partner</h2><br>
+											<h2>Support Partner</h2><br><br>
 											<ul>
 												<a href="http://www.acslab.info/">
 													<img src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px"
@@ -467,7 +452,7 @@
 											</ul>
 										</div>
 										<div class="col-sm-4">
-											<h2>Publication Partner</h2><br>
+											<h2>Publication Partner</h2><br><br>
 											<ul>
 												<a href="http://www.acslab.info/">
 													<img src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px"
@@ -476,7 +461,7 @@
 											</ul>
 										</div>
 										<div class="col-sm-4">
-											<h2>Other Support</h2><br>
+											<h2>Other Support</h2><br><br>
 											<ul>
 
 												<img src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px"
@@ -777,7 +762,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="sectionTitle">Committee</h2>
+					<h2 class="sectionTitle">Conference Committee</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -1068,7 +1053,7 @@
 	<!-- /committee wrap -->
 
 	<div class="container">
-		<div class="row" style="text-align: center;">
+		<div class="row" style="text-align: center; margin: 40px 0 40px 0;">
 
 			<h2 class="sectionTitle">Financial Support</h2>
 			<div class="col-md-2">
@@ -1087,7 +1072,7 @@
 
 	<div id="productWrap" class="altWrap" style="padding-top:50px">
 		<div class="container">
-			<div class="row">
+			<div class="row" style="margin-bottom: 50px;">
 				<div class="col-xs-12">
 					<h2 class="sectionTitle">Mode of Conference</h2>
 
@@ -1201,7 +1186,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="sectionTitle">Scope</h2>
+					<h2 class="sectionTitle">Scope</h2><br>
 				</div>
 			</div>
 			<div class="row">
@@ -1249,16 +1234,18 @@
 					<h3>CALL FOR PAPERS</h3>
 					<p>
 
-						You may download pdf formats of the call for paper from the following links:
+						You may download pdf formats of the call for paper from the following links: <a href="{{asset('frontend/files/TCCE-2022-call-for-paper.pdf')}}" target="_blank">click here</a>
 					</p>
-
+					<!--
 					<a href="{{asset('frontend/files/cfp(modified).jpg')}}" target="_blank"><button name="submit" type="button"
-							class="btn btn-primary btn-lg">Download</button></a>
+							class="btn btn-primary btn-lg">Download</button>
+					</a>
+					-->
 				</div>
 				<div class="col-sm-6 text-center feature">
 					<i class="fa fa-pencil icon"></i>
 					<h3>CALL FOR TUTORIALS AND WORKSHOP</h3>
-					<p align="justify">
+					<p align="center">
 						Proposals for tutorials and workshops are solicited on hot topics for
 						future wireless communications systems and applications.
 					</p>
@@ -1270,7 +1257,7 @@
 	
 
 
-	<div id="paperWrap" class="altWrap" style="padding-top:50px">
+	<div id="paperWrap" class="altWrap" style="padding:50px 0px 20px 0px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1424,9 +1411,12 @@
 					[ESCI]</li>
 
 			</ul>
+			<br>
 			</p>
-			<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary"
-				target="_blank">Submit Camera Ready Submission</a></p>
+				<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary disabled"
+					target="_blank">Submit Camera Ready Submission
+				</a>
+			</p>
 
 		</div>
 	</div> <!-- /papersubmissionWrap -->
@@ -1536,15 +1526,25 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<img src="{{asset('frontend/assets/img/logo.png')}}" class="img-rounded">
+						<img src="{{asset('frontend/assets/img/logo.png')}}" class="img-rounded"><br><br><br>
 						<P>FACULTY OF ENGINEERING, MAWLANA BHASHANI SCIENCE &
-							TECHNOLOGY UNIVERSITY, SANTOSH, TANGAIL</p>
+							TECHNOLOGY UNIVERSITY, TANGAIL, BANGLADESH</p>
 					</div>
 
 					<div class="col-xs-12 text-center">
 						<p>Copyright &copy; 2022 tcce-2022, All Rights Reserved. Contact No:+88 01783 567890, +88
-							01711 932323 </br>
-							For more query <a href="mailto: info-tcce@mbstu.ac.bd">info-tcce@mbstu.ac.bd</a>
+							01711 932323 <br>
+							<span>For more query: </span><a href="mailto: info-tcce@mbstu.ac.bd">info-tcce@mbstu.ac.bd</a><br>
+							<span>Find Us on Facebook:
+								<span class="social">
+									<a href="https://www.facebook.com/Tcce2022-100200532638296/" target="_blank">
+										<span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+										</span>
+									</a>
+								</span>
+							</span>
 						</p>
 					</div>
 				</div>
