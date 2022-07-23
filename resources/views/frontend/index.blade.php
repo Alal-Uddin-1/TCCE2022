@@ -30,6 +30,8 @@
 	<link href="{{asset('frontend/css/css2bfb.css?family=Roboto+Condensed:400,300,700')}}" rel='stylesheet' type='text/css'>
 	<link href="{{asset('frontend/css/cssc13a.css?family=Noto+Sans:400,700')}}" rel='stylesheet' type='text/css'>
 
+	<link href="{{asset('frontend/css/styles.css')}}" rel="stylesheet">
+
 	<script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -55,7 +57,8 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#topWrap">
-				<img style="margin-top: -5px; margin-right:-5px; border-radius: 20%; width: 30px; height: 30px;" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
+				<!-- <img style="margin-top: -5px; margin-right:-5px; border-radius: 20%; width: 30px; height: 30px;" src="{{asset('frontend/assets/img/tcce-logo.png')}}" /> -->
+				<img class="brand-logo" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
 				TCCE<span class="title"> 2022</span>
 				</a>
 			</div>

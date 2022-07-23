@@ -1,0 +1,11 @@
+.brand-logo {
+    margin-top: -3px;
+    margin-right: 2px;
+    border-radius: 10%;
+    width: 55px;
+    height: 55px;
+}
+
+.navbar {
+    padding-left: 40px;
+}
