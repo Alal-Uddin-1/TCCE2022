@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from tcce.iitju.edu.bd/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Feb 2022 10:05:30 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -21,85 +19,88 @@
 	<!-- Bootstrap core CSS -->
 	<link href="{{asset('frontend/css/bootstrap.min.css')}}" rel="stylesheet">
 
+
 	<!-- Custom styles for this template -->
 	<link href="{{asset('frontend/css/custom.css')}}" rel="stylesheet">
 	<link href="{{asset('frontend/css/flexslider.css')}}" rel="stylesheet">
 
-	
+
 	<link href="{{asset('frontend/css/font-awesome.min.css')}}" rel="stylesheet">
-	<link href="{{asset('frontend/css/css2bfb.css?family=Roboto+Condensed:400,300,700')}}" rel='stylesheet' type='text/css'>
-	<link href="{{asset('frontend/css/cssc13a.css?family=Noto+Sans:400,700')}}" rel='stylesheet' type='text/css'>
+	<!-- <link href="{{asset('frontend/css/css2bfb.css?family=Roboto+Condensed:400,300,700')}}" rel='stylesheet' type='text/css'>
+	<link href="{{asset('frontend/css/cssc13a.css?family=Noto+Sans:400,700')}}" rel='stylesheet' type='text/css'> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
 	<link href="{{asset('frontend/css/styles.css')}}" rel="stylesheet">
 
 	<script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<script src="../code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
+	<script src="../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#topWrap">
-				<!-- <img style="margin-top: -5px; margin-right:-5px; border-radius: 20%; width: 30px; height: 30px;" src="{{asset('frontend/assets/img/tcce-logo.png')}}" /> -->
-				<img class="brand-logo" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
-				TCCE<span class="title"> 2022</span>
+				<a class="navbar-brand rf" href="#home">
+					<img class="brand-logo" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
+					TCCE<span class="title rf"> 2022</span>
 				</a>
 			</div>
 			<div class="collapse navbar-collapse appiNav">
 				<ul class="nav navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#abouticeeictwrap">TCCE 2022</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about_tcce_2022">TCCE 2022</a></li>
 					<!--<li><a href="#testimonialsWrap"></a></li>-->
-					<li class="nav-item"><a class="nav-link" href="#keynoteWrap">KeyNotes</a></li>
-					<li class="nav-item"><a class="nav-link" href="#committeeWrap">Committees</a></li>
-					<li class="nav-item"><a class="nav-link" href="#productWrap">Conference Mode</a></li>
-					<li class="nav-item"><a class="nav-link" href="#pricingWrap">Scope</a></li>
-					<li class="nav-item"><a class="nav-link" href="#featureWrap">CFP</a></li>
-					<li class="nav-item"><a class="nav-link" href="#paperWrap">Camera Submission</a></li>
-					<li class="nav-item"><a class="nav-link" href="#contactWrap">Important Dates</a></li>
-
+					<li class="nav-item"><a class="nav-link" href="#keynotes">KeyNotes</a></li>
+					<li class="nav-item"><a class="nav-link" href="#committees">Committees</a></li>
+					<li class="nav-item"><a class="nav-link" href="#modes">Conference Mode</a></li>
+					<li class="nav-item"><a class="nav-link" href="#scope">Scope</a></li>
+					<li class="nav-item"><a class="nav-link" href="#cfp">CFP</a></li>
+					<li class="nav-item"><a class="nav-link" href="#submission">Camera Submission</a></li>
+					<li class="nav-item"><a class="nav-link" href="#important_dates">Important Dates</a></li>
 				</ul>
 			</div>
 			<!--/.nav-collapse -->
 		</div>
 	</div>
 	<!--col-md-push-6-->
-	<div id="topWrap" class="jumbotron">
+	<div id="home" class="jumbotron">
 		<div class="container-fluid">
-			<div class="col-md-12 jumboText">
-				<br>
-				<h2 style="color:#007ACC; font-weight: bold; font-size: 40px; text-align:center;">4th International Conference on Trends in Computational and Cognitive
-					Engineering (TCCE-2022)</h2>
-				<h2 align="center" style="color:white; font-weight:bold;">17-18 December 2022</h2>
-				<h2 align="center" style="color:white; font-weight:bold;">Mawlana Bhashani Science and Technology University, Tangail,
-					Bangladesh</h2>
-				<h2 align="center" style="color:white"><strong> Conference Mode: Hybrid</strong></h2>
-				
-				<h2 align="center"><a style="margin-bottom:-10px; background-color:#007ACC; color: white;" class="btn btn-lg actionBtn"
-						href="files/TCCE 2022_MAH.pptx.pdf" target="_blank"><i
-							class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual Sessions</a></h2>
-				<!--
+			<div class="row">
+				<div class="col-md-12">
+					<br>
+					<h2 style="color:#007ACC; font-weight: bold; font-size: 40px; text-align:center;">4th International Conference on Trends in Computational and Cognitive
+						Engineering (TCCE-2022)</h2>
+					<br>
+					<br>
+					<h2 style="color:white; font-weight:bold; text-align:center;">17-18 December 2022</h2>
+					<h2 style="color:white; font-weight:bold; text-align:center;">Mawlana Bhashani Science and Technology University, Tangail,
+						Bangladesh</h2>
+					<h2 style="color:white; text-align:center;"><strong> Conference Mode: Hybrid</strong></h2>
+
+					<br>
+					<h2 class="text-center"><a style="margin-bottom:-10px; background-color:#007ACC; color: white; text-align:center;" class="btn btn-lg actionBtn" href="files/TCCE 2022_MAH.pptx.pdf" target="_blank"><i class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual Sessions</a></h2>
+					<!--
 				<h2 align="center"><a style="margin-bottom:-10px; width:180px;" class="btn btn-lg btn-success actionBtn"
 						href="tcce2022_final-program.pdf" target="_blank"><i
 							class="fa fa-mobile fa-2x pull-left"></i><span class="line2">To Be</span><br /><span
 							class="line2">Announced</span></a></h2>
 				-->
+				</div>
 			</div>
 		</div>
 
@@ -107,60 +108,56 @@
 
 
 	<div id="" class="altWrap" style="padding-top:5px">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-md-12">
 					<!-- <hr style="border-width:0;color:gray;background-color:gray">-->
 					<h2 class="sectionTitle">Important Announcements</h2>
-
 					<!--	<hr style="border-width:0;color:red;background-color:red">-->
 					<div class="row">
-
-						<h3 class="card-title"><strong>Notice<sup style="color:red">**</sup>: </strong><em
-								style="color:green">For preparing the final manuscript in camera-ready submission, the
+						<h3 class="card-title text-center"><strong>Notice<sup style="color:red">**</sup>: </strong><em style="color:green">For preparing the final manuscript in camera-ready submission, the
 								maximum page limit set by the springer is 10.</em></h3>
-						<div class="col-sm-4">
+						<div class="col-md-4 text-center">
 							<div class="card">
 								<div class="card-body">
 									<h2 class="card-title"><strong>Important Dates</strong></h2>
 									<p class="card-text">
 										<b>Paper Submission Deadline:</b>
-										16 August 2022
+										16 August 2022 <br>
 										<b>Acceptance Notification:</b>
-										01 October 2022
+										01 October 2022 <br>
 										<b>Camera Ready Submission:</b>
-										10 October 2022
+										10 October 2022 <br>
 										<b>Registration Period:</b>
 										01 Oct 2022 - 10 Oct 2022
 									</p>
-									<a href="https://myproconf.org/conferences/tcce-2022/app/login.php"
-										class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission</a>
+									<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission</a>
 									<br>
 									<br>
 									<h2 class="card-title"><strong style="color:red">Payment Information</strong></h2>
-									<b>For wire transfer:</b><br>
+									<p class="card-text">
+										<b>For wire transfer:</b><br>
 
-									Account Name: <b>TCCE-2022</b><br>
+										Account Name: <b>TCCE-2022</b><br>
 
-									Current Account No: <b>60301000WXYZ</b><br>
+										Current Account No: <b>60301000WXYZ</b><br>
 
-									Bank Routing No: <b>200931490</b><br>
+										Bank Routing No: <b>200931490</b><br>
 
-									Sonali Bank Limited<br>
+										Sonali Bank Limited<br>
 
-									<!--Mawlana Bhashani Science and Technology University Branch<br>-->
+										<!--Mawlana Bhashani Science and Technology University Branch<br>-->
 
-									Mawlana Bhashani Science and Technology university<br>
-									Santosh, Tangail-1902 
+										Mawlana Bhashani Science and Technology university<br>
+										Santosh, Tangail-1902
+									</p>
 								</div>
 							</div>
 						</div>
-
-
-						<div class="col-sm-4">
+						<div class="col-md-4 text-jusify">
 							<div class="card">
 								<div class="card-body">
-									<h2 class="card-title"><strong>Registration Fees</strong></h2>
+									<h2 class="card-title text-center"><strong>Registration Fees</strong></h2>
 									<p class="card-text">
 									<table class="table table-striped">
 										<thead>
@@ -173,19 +170,19 @@
 										<tbody>
 											<tr>
 												<th scope="row">1</th>
-												<td>Professional(International)</td>
+												<td>Professional (International)</td>
 												<td>100 USD</td>
 											</tr>
 
 											<tr>
 												<th scope="row">2</th>
-												<td>Student(International)</td>
+												<td>Student (International)</td>
 												<td>75 USD</td>
 											</tr>
 
 											<tr>
 												<th scope="row">3</th>
-												<td>Professional(Local)</td>
+												<td>Professional (Local)</td>
 												<td>3000 BDT</td>
 											</tr>
 
@@ -193,12 +190,12 @@
 
 											<tr>
 												<th scope="row">4</th>
-												<td>Student(Local)</td>
+												<td>Student (Local)</td>
 												<td>2500 BDT</td>
 											</tr>
 											<tr>
 												<th scope="row">5</th>
-												<td>Participants(Co-author)</td>
+												<td>Participants (Co-author)</td>
 												<td>1500 BDT</td>
 											</tr>
 										</tbody>
@@ -207,13 +204,13 @@
 									<h4><strong>Note<sup style="color:red">**</sup>: </strong>Participants will get
 										Certificate of Participation and a Conference kit</h4>
 									</p>
-									
+
 									<a href="#" target="_blank" class="btn btn-primary">Click Here for Registration</a>
 								</div>
 							</div>
 
 						</div>
-						<div class="col-sm-4">
+						<div class="col-md-4 text-center">
 							<div class="card">
 								<div class="card-body">
 									<h2 class="card-title"><strong>Awards & Grants</strong></h2>
@@ -240,21 +237,19 @@
 							</div>
 						</div>
 					</div>
-					<br>
-					<br>
-					<div id="abouticeeictwrap" class="altWrap" style="padding-top:50px; background-color: azure;">
-						<h2 class="sectionTitle">TCCE 2022</h2>
 
-						<h2>About TCCE 2022</h2>
+					<div id="about_tcce_2022" class="altWrap" style="padding-top:50px; background-color: azure;">
+						<h2 class="sectionTitle">TCCE 2022</h2>
+						<!-- <h2>About TCCE 2022</h2> -->
 						<p align="justify">
-						"TCCE" conference focuses  on the empirical, experimental, theoretical and application aspects of various innovations in  computational and cognitive engineering. It aims to provide an opportunity to share research findings  among scholars, experts, specialists from academia and industry working in multidimentional areas of applied sciences, engineering and technologies. 1st TCCE was held in the Central University of Haryana (CUH), India. In this year, TCCE-2022 will be held in the Faculty of  Engineering, Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Bangladesh during 17-18 December, 2022.
+							"TCCE" conference focuses on the empirical, experimental, theoretical and application aspects of various innovations in computational and cognitive engineering. It aims to provide an opportunity to share research findings among scholars, experts, specialists from academia and industry working in multidimentional areas of applied sciences, engineering and technologies. 1st TCCE was held in the Central University of Haryana (CUH), India. In this year, TCCE-2022 will be held in the Faculty of Engineering, Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Bangladesh during 17-18 December, 2022.
 
 						<div class="row">
 							<div class="col-sm-4">
 								<ul class="priceTable">
 									<h4>Track 1: Artificial Intelligence and Soft Computing</h4>
 									<ul class="features">
-										
+
 										<li>Adaptive Systems</li>
 										<li>Fuzzy Logic</li>
 										<li>Data Mining</li>
@@ -341,7 +336,8 @@
 
 							</div>
 						</div>
-						<div>
+						<br>
+						<div class="row">
 							<h2 align="center" style="color:#007ACC; font-weight: bold; margin:30px 0px 20px 0px;;">Objectives of the Conference</h2>
 							<p align="justify">With increasing complex situations being modelled to find reasonable
 								answers, role of computations and cognitive
@@ -350,148 +346,101 @@
 								practitioners and scientists together. so as to focus on the recent trends in
 								computational and cognitive
 								engineering. The conference will further help:</p>
-								<br>
+							<br>
 							<div class="row">
 								<div class="col-md-2">
 
 								</div>
-								<div class="col-md-8">
-									<table class="table objective">
-										
+								<div class="col-md-8 offset-md-2">
+									<table class="table table-hover">
 										<tr>
-											<td> To provide a forum for exchange of ideas and insights by mathematicians, engineers, scientists, and researchers<td>
+											<td># To provide a forum for exchange of ideas and insights by mathematicians, engineers, scientists, and researchers
+											<td>
 										</tr>
 										<tr>
-											<td>To share fresh perspective on problem-solving in current research areas<td>
+											<td># To share fresh perspective on problem-solving in current research areas
+											<td>
 										</tr>
 										<tr>
-											<td>To present various computational and cognitive modelling approaches in the areas of health, education, finance, environment, engineering, commerce and industry<td>
+											<td># To present various computational and cognitive modelling approaches in the areas of health, education, finance, environment, engineering, commerce and industry
+											<td>
 										</tr>
 										<tr>
-											<td>To promote networking opportunities among experts in various disciplines and encourage interdisciplinary research<td>
+											<td># To promote networking opportunities among experts in various disciplines and encourage interdisciplinary research
+											<td>
 										</tr>
-									
+
 									</table>
 								</div>
-								<div class="col-md-2">
-
+							</div>
+							<div class="row text-center">
+								<div class="col-md-12">
+									<h2 style="margin:30px 0px 30px 0px; color:#007ACC; font-weight: bold;">Conference Publications and Special Issues</h2><br>
+									<div class="col-md-3">
+										<ul>
+											<img class="journal-img" src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px" width="150px" alt="...">
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<img class="journal-img" src="{{asset('frontend/assets/img/rithm.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
+									</div>
+									<div class="col-md-3">
+										<img class="journal-img" src="{{asset('frontend/assets/img/brain informatics.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
+									</div>
+									<div class="col-md-3">
+										<img class="journal-img" src="{{asset('frontend/assets/img/informatics.png')}}" alt="informatics" height="100px" width="250px" alt="..." class="rounded">
+									</div>
 								</div>
 							</div>
-							<div class="row" style="text-align: center;">
-								<h2 style="margin:30px 0px 30px 0px; color:#007ACC; font-weight: bold;">Conference Publications and Special Issues</h2><br>
-								<div class="col-sm-3">
-									<!--<h2>Proceedings</h2>-->
-									<ul>
-										<img src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px"
-											width="150px" border-radius="10px" alt="...">
-										<!--
-										<figcaption class="figure-caption"><a
-												href="https://www.springer.com/series/11156">Advances in Intelligent
-												Systems and Computing, Springer</a></figcaption>
-										-->
-									</ul>
-								</div>
-								<!--
-								<h2>Journals</h2>
-								-->
-								
-								<div class="col-sm-3">
-
-
-										<img src="{{asset('frontend/assets/img/rithm.jpg')}}" alt="..." height="150px" width="150px" alt="..."
-											class="rounded">
-										<!--
-										<figcaption class="figure-caption"><a
-												href="https://www.springer.com/series/16136">Rhythm Engineering,
-												Springer-Nature</a></figcaption>
-										-->
-								</div>
-
-									
-								<div class="col-sm-3">
-
-
-											<img src="{{asset('frontend/assets/img/brain informatics.jpg')}}" alt="..." height="150px" width="150px"
-												alt="..." class="rounded">
-												<!--
-											<figcaption class="figure-caption"><a
-													href="https://www.mdpi.com/journal/entropy/special_issues/entropy_image">Entropy,
-													MDPI</a></figcaption>
-											-->
-								</div>
-
-								<div class="col-sm-3">
-
-											<img src="{{asset('frontend/assets/img/informatics.png')}}" alt="informatics" height="100px" width="250px"
-												alt="..." class="rounded">
-											<!--
-											<figcaption class="figure-caption"><a href="#">Big Data Ananlytics, BioMed
-													Central</a></figcaption>
-											-->
-
-
-								</div>
-										<!--
-										<div class="col-sm-2">
-
-											<img src="{{asset('frontend/assets/img/ijaci.png')}}" alt="Big Data Ananlytics" height="150px"
-												width="150px" alt="..." class="rounded">
-											<figcaption class="figure-caption"><a
-													href="https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110">International
-													Journal of Ambient Computing and Intelligence, IGI Global</a>
-											</figcaption>
-										</div>
-										-->
-
-							</div>
-							<div class="row" style="text-align: center; margin:40px 0px 20px 0px;;">
-										<div class="col-sm-4">
-											<h2>Support Partner</h2><br><br>
-											<ul>
+							<div class="row text-center" style="margin-top:40px;">
+								<div class="col-md-12">
+									<div class="col-md-4">
+										<div class="card">
+											<div class="card-header">
+												<h2>Support Partner</h2>
+											</div>
+											<div class="card-body">
 												<a href="http://www.acslab.info/">
-													<img src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px"
-														width="350px"  class="rounded float-left">
+													<img class="journal-img" src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
 												</a>
-											</ul>
+											</div>
 										</div>
-										<div class="col-sm-4">
-											<h2>Publication Partner</h2><br><br>
-											<ul>
+									</div>
+									<div class="col-md-4">
+										<div class="card">
+											<div class="card-header">
+												<h2>Publication Partner</h2>
+											</div>
+											<div class="card-body">
 												<a href="http://www.acslab.info/">
-													<img src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px"
-														width="350px"  class="rounded float-left">
+													<img class="journal-img" src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px" width="350px" class="rounded float-left">
 												</a>
-											</ul>
+											</div>
 										</div>
-										<div class="col-sm-4">
-											<h2>Other Support</h2><br><br>
-											<ul>
-
-												<img src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px"
-													width="350px"  class="rounded float-left">
-
-											</ul>
+									</div>
+									<div class="col-md-4">
+										<div class="card">
+											<div class="card-header">
+												<h2>Other Support</h2>
+											</div>
+											<div class="card-body">
+												<img class="journal-img" src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
+											</div>
 										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-
-								
-						</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 	</div>
-	</div>
-
-
-	<div id="keynoteWrap" class="altWrap" style="padding-top:50px; text-align: center">
+	<div id="keynotes" class="altWrap" style="padding-top:50px; text-align: center">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="sectionTitle">KEYNOTE SPEAKER/TECHNICAL TALK</h2>
+					<h2 class="sectionTitle">KEYNOTE SPEAKER / TECHNICAL TALK</h2>
 				</div>
 			</div>
 
@@ -501,12 +450,10 @@
 						<h3>Mufti Mahmud, PhD<h3>
 								<img src="{{asset('frontend/assets/img/MM-IEEE.jpg')}}" height="200" width="200" class="img-rounded">
 								<br>
-								<button type="button" class="btn btn-primary biography" data-toggle="modal"
-									data-target="#exampleModa51">Biography</button>
+								<button type="button" class="btn btn-primary biography" data-toggle="modal" data-target="#exampleModa51">Biography</button>
 
 								<!-- Modal -->
-								<div class="modal fade" id="exampleModa51" tabindex="-1" role="dialog"
-									aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal fade" id="exampleModa51" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
@@ -521,8 +468,7 @@
 
 														<h4>
 												</h3>
-												<button type="button" class="close" data-dismiss="modal"
-													aria-label="Close">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
@@ -581,8 +527,7 @@
 											</div>
 
 											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary"
-													data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
 											</div>
 										</div>
@@ -595,12 +540,10 @@
 								<img src="{{asset('frontend/assets/img/sazzadSir.jpg')}}" height="200" width="200px" class="img-rounded">
 
 								<br>
-								<button type="button" class="btn btn-primary biography" data-toggle="modal"
-									data-target="#exampleModa52">Biography</button>
+								<button type="button" class="btn btn-primary biography" data-toggle="modal" data-target="#exampleModa52">Biography</button>
 
 								<!-- Modal -->
-								<div class="modal fade" id="exampleModa52" tabindex="-1" role="dialog"
-									aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal fade" id="exampleModa52" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
@@ -610,8 +553,7 @@
 														Director, Bangladesh Communication Satellite Company Ltd
 														<h4>
 												</h3>
-												<button type="button" class="close" data-dismiss="modal"
-													aria-label="Close">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
@@ -681,8 +623,7 @@
 											</div>
 
 											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary"
-													data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
 											</div>
 										</div>
@@ -697,12 +638,10 @@
 								<img src="{{asset('frontend/assets/img/julhas.jpg')}}" height="200" width="200px" class="img-rounded">
 
 								<br>
-								<button type="button" class="btn btn-primary biography" data-toggle="modal"
-									data-target="#exampleModa22">Biography</button>
+								<button type="button" class="btn btn-primary biography" data-toggle="modal" data-target="#exampleModa22">Biography</button>
 
 								<!-- Modal -->
-								<div class="modal fade" id="exampleModa22" tabindex="-1" role="dialog"
-									aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal fade" id="exampleModa22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 									<div class="modal-dialog" role="document">
 										<div class="modal-content">
 											<div class="modal-header">
@@ -710,8 +649,7 @@
 													<h4>Research Scientist,European Molecular Biology Laboratory,
 														Germany.<h4>
 												</h3>
-												<button type="button" class="close" data-dismiss="modal"
-													aria-label="Close">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 													<span aria-hidden="true">&times;</span>
 												</button>
 											</div>
@@ -744,14 +682,13 @@
 											</div>
 
 											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary"
-													data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
+					</div>
 
 
 				</div>
@@ -761,7 +698,7 @@
 		</div>
 	</div>
 
-	<div id="committeeWrap" style="padding-top:50px">
+	<div id="committees" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -775,7 +712,7 @@
 						<ul class="features">
 							<li>Dr. Md. Forhad Hossain <br>Vice Chancellor <br>Mawlana Bhashani Science and
 								Technology University
-							 </li>
+							</li>
 						</ul>
 						<h4>Patrons:</h4>
 						<ul class="features">
@@ -811,16 +748,16 @@
 							</li>
 							<li>Subrata Ghosh<br> CSIR Northeast Institute of Science & Technology, Jorhat
 							</li>
-							
+
 							<li>Chi-Sang Poon<br> MIT, USA
 							</li>
-							
+
 							<li>Jocelyn Faubert<br> University of Montreal, Canada
 							</li>
-							
+
 							<li>Mufti Mahmud<br> Nottingham Trent University, UK
 							</li>
-							
+
 							<li>Shamim Al Mamun<br>Jahangirnagar University, Bangladesh</li>
 							<li>M. Shamim Kaiser<br>Jahangirnagar University, Bangladesh</li>
 						</ul>
@@ -833,7 +770,7 @@
 							<li>Anirban Bandyopadhyay<br>National Institute for Materials Science, Japan
 							</li>
 							<li>M. Shamim Kaiser<br>IIT, JU</li>
-						<!--
+							<!--
 						</ul>
 						<h4>Technical Co-Chair:</h4>
 						<ul class="features">
@@ -849,43 +786,41 @@
 							<li>Md. Shahadat Hossain<br> CU, Bangladesh</li>
 							<li>Nilanjan Day<br> Techno India, Kolkata
 							</li>
-						<!--
+							<!--
 						</ul>
 						-->
-						
-						
-						
 
-						<!-- Modal -->
-						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-							aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Advisory Committee</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
 
-										<ul class="priceTable">
 
-											<ul class="features">
 
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Advisory Committee</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+
+											<ul class="priceTable">
+
+												<ul class="features">
+
+												</ul>
 											</ul>
-										</ul>
-									</div>
+										</div>
 
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary"
-											data-dismiss="modal">Close</button>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</ul>
+						</ul>
 					</ul>
 
 				</div>
@@ -945,7 +880,7 @@
 				<div class="col-sm-4">
 
 					<ul class="priceTable">
-						
+
 						<h4>Registration:</h4>
 						<ul class="features">
 							<li>Monir Morshed<br> ICT, MBSTU
@@ -1020,7 +955,7 @@
 						</ul>
 						<h4>Project and Exhibition:</h4>
 						<ul class="features">
-							
+
 							<li>Md. Sazzad Hossain<br> CSE, MBSTU
 							</li>
 							<!--
@@ -1039,7 +974,7 @@
 							<li>Shamim Al Mamun<br> JU, Bangladesh</li>
 							<li>M. Arifur Rahman<br> NTU, UK</li>
 						</ul>
-						
+
 						<h4>Website Management Chair:</h4>
 						<ul class="features">
 							<li>Tanvir Rahman<br>ICT, MBSTU</li>
@@ -1052,8 +987,6 @@
 			</div>
 		</div>
 	</div>
-
-	<!-- /committee wrap -->
 
 	<div class="container">
 		<div class="row" style="text-align: center; margin: 40px 0 40px 0;">
@@ -1071,16 +1004,14 @@
 		</div>
 	</div>
 
-
-
-	<div id="productWrap" class="altWrap" style="padding-top:50px">
+	<div id="modes" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row" style="margin-bottom: 50px;">
 				<div class="col-xs-12">
 					<h2 class="sectionTitle">Mode of Conference</h2>
 
 					<div class="imgWrap">
-						<img class="img-responsive"  style="border-radius: 10px;" src="{{asset('frontend/assets/img/Virtual-image.jpg')}}" />
+						<img class="img-responsive" style="border-radius: 10px;" src="{{asset('frontend/assets/img/Virtual-image.jpg')}}" />
 					</div>
 				</div>
 			</div>
@@ -1183,18 +1114,17 @@
 			</div>
 		</div>
 	</div>
-	<!-- /productWrap -->
 
-	<div id="pricingWrap" style="padding-top:50px">
+	<div id="scope" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="sectionTitle">Scope</h2><br>
+					<h2 class="sectionTitle">Scope of the Conference</h2><br>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6">
-					
+
 					<ul class="priceTable">
 						<ul class="features scope">
 							<li>Cognitive Science: Cognitive Psychology and Cognitive Neuroscience</li>
@@ -1203,7 +1133,7 @@
 							<li>Signal Processing</li>
 							<li>Cryptography: Image Processing, Coding Theory</li>
 						</ul>
-					</ul>		
+					</ul>
 				</div>
 
 				<div class="col-sm-6">
@@ -1221,10 +1151,9 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- /pricingWrap -->
+	</div>
 
-
-	<div id="featureWrap" class="altWrap" style="padding-top:50px">
+	<div id="cfp" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1257,10 +1186,8 @@
 			</div>
 		</div>
 	</div>
-	
 
-
-	<div id="paperWrap" class="altWrap" style="padding:50px 0px 20px 0px;">
+	<div id="submission" class="altWrap" style="padding:50px 0px 20px 0px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -1278,9 +1205,7 @@
 
 			<h3><b>Template:</b></h3>
 
-			<p align="justify">Authors should consult Springer’s <a
-					href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf"
-					target="_blank">authors’ guidelines</a> and use their proceedings templates, either for LaTeX or
+			<p align="justify">Authors should consult Springer’s <a href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf" target="_blank">authors’ guidelines</a> and use their proceedings templates, either for LaTeX or
 				for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs
 				in their papers.</p>
 
@@ -1291,14 +1216,10 @@
 
 			<p>Style files can be download here:</p>
 			<ul>
-				<li>Office 2007 Word:<a href="ftp://ftp.springer.de/pub/tex/latex/llncs/word/splnproc1110.zip"
-						target="_blank">zip</a></li>
-				<li>Word 2003:<a
-						href="http://static.springer.com/sgw/documents/1124637/application/zip/CSProceedings_AuthorTools_Word_2003.zip"
-						target="_blank">CS Proceedings_Author Tools_Word 2003 (last update: April 19, 2011) (zip,
+				<li>Office 2007 Word:<a href="ftp://ftp.springer.de/pub/tex/latex/llncs/word/splnproc1110.zip" target="_blank">zip</a></li>
+				<li>Word 2003:<a href="http://static.springer.com/sgw/documents/1124637/application/zip/CSProceedings_AuthorTools_Word_2003.zip" target="_blank">CS Proceedings_Author Tools_Word 2003 (last update: April 19, 2011) (zip,
 						229 kB)</a></li>
-				<li>LaTeX2e:<a href="ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/llncsv2e.zip"
-						target="_blank">zip</a></li>
+				<li>LaTeX2e:<a href="ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/llncsv2e.zip" target="_blank">zip</a></li>
 			</ul>
 
 			<p align="justify">Although we accept submissions in the form of PDF, PS, and DOC/RTF files, you are
@@ -1328,17 +1249,13 @@
 
 				<li><b>(e)</b> Payment Proof (Bank slip or Online Transaction Proof )</li>
 
-				<li><b>(f)</b> Springer Permission Request form (<a
-						href="https://drive.google.com/file/d/13XBZaONSvkVNCWB-mnz_Ka5HGQ1rTC_M/view?fbclid=IwAR0kkD56R45ttXQRncU3_1CAAR8i4oHdLHoR7mbvSYz6Jy27UNusY5RpsPM"
-						target="_blank">Download</a>)</li>
+				<li><b>(f)</b> Springer Permission Request form (<a href="https://drive.google.com/file/d/13XBZaONSvkVNCWB-mnz_Ka5HGQ1rTC_M/view?fbclid=IwAR0kkD56R45ttXQRncU3_1CAAR8i4oHdLHoR7mbvSYz6Jy27UNusY5RpsPM" target="_blank">Download</a>)</li>
 			</ul>
 			<p><b>Step 4:</b> Please upload your zip file using your authors portal.</p>
 
 			<h3><b>Copyright Submission:</b></h3>
 
-			<p align="justify">Download and print Consent to Publish, <a
-					href="https://drive.google.com/file/d/1QGF0cPTLbc8UpAOqicljtwPpKj4oAw8n/view?fbclid=IwAR0ix4TbVECXg2CZyHn24Dm4uGPfrHwWNSYe2s-Dc6mQ6At7WUCS7OmvKTc"
-					target="_blank">CTP (or copyright) letter</a>. Then sign on the CTP and upload scan copy. Please
+			<p align="justify">Download and print Consent to Publish, <a href="https://drive.google.com/file/d/1QGF0cPTLbc8UpAOqicljtwPpKj4oAw8n/view?fbclid=IwAR0ix4TbVECXg2CZyHn24Dm4uGPfrHwWNSYe2s-Dc6mQ6At7WUCS7OmvKTc" target="_blank">CTP (or copyright) letter</a>. Then sign on the CTP and upload scan copy. Please
 				DO NOT type or print your name as sign on CTP. The sign should be hand-sign.</p>
 
 			<h3 align="justify"><b>Springer Permission Request form Submission (Include in Zip Folder- Follow Step
@@ -1402,30 +1319,23 @@
 			<p>The accepted paper may be submitted for the possible publication (after more than 40% modification)
 				in the –</p>
 			<ul>
-				<li>Rhythm Engineering, Springer-Nature (<a href="https://www.springer.com/series/16136"
-						target="_blank">https://www.springer.com/series/16136</a>)</li>
-				<li>Entropy, MDPI (<a href="https://www.mdpi.com/journal/entropy"
-						target="_blank">https://www.mdpi.com/journal/entropy</a>) [IF:2.494] (APC required)</li>
-				<li>Big data Analytics, BMC (<a href="https://bdataanalytics.biomedcentral.com/"
-						target="_blank">https://bdataanalytics.biomedcentral.com/</a>) (APC required)</li>
-				<li>International Journal of Ambient Computing and Intelligence (IJACI), IGI (<a
-						href="https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110"
-						target="_blank">https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110</a>)
+				<li>Rhythm Engineering, Springer-Nature (<a href="https://www.springer.com/series/16136" target="_blank">https://www.springer.com/series/16136</a>)</li>
+				<li>Entropy, MDPI (<a href="https://www.mdpi.com/journal/entropy" target="_blank">https://www.mdpi.com/journal/entropy</a>) [IF:2.494] (APC required)</li>
+				<li>Big data Analytics, BMC (<a href="https://bdataanalytics.biomedcentral.com/" target="_blank">https://bdataanalytics.biomedcentral.com/</a>) (APC required)</li>
+				<li>International Journal of Ambient Computing and Intelligence (IJACI), IGI (<a href="https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110" target="_blank">https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110</a>)
 					[ESCI]</li>
 
 			</ul>
 			<br>
 			</p>
-				<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary disabled"
-					target="_blank">Submit Camera Ready Submission
-				</a>
+			<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission
+			</a>
 			</p>
 
 		</div>
-	</div> <!-- /papersubmissionWrap -->
+	</div>
 
-
-	<div id="contactWrap" style="padding-top:50px">
+	<div id="important_dates" style="padding-top:50px">
 
 		<div class="overlay">
 			<div class="container">
@@ -1438,15 +1348,20 @@
 					<div class="col-xs-12 text-center">
 						<div class="blurb">
 							<ul style="list-style-type:none;">
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span><h2 style="color:Tomato;">16 August 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span>
+									<h2 style="color:Tomato;">16 August 2022</h2>
 								</li>
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Acceptance Notification</span> <h2 style="color:Tomato;">01 October 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Acceptance Notification</span>
+									<h2 style="color:Tomato;">01 October 2022</h2>
 								</li>
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Camera Ready Submission </span><h2 style="color:Tomato;">10 October 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Camera Ready Submission </span>
+									<h2 style="color:Tomato;">10 October 2022</h2>
 								</li>
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span><h2 style="color:Tomato;">01 Oct - 10 Oct 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span>
+									<h2 style="color:Tomato;">01 Oct - 10 Oct 2022</h2>
 								</li>
-								<li><span style=" background-color:#C1F6BA; padding: 5px;">Expected Publication Date</span> <h2 style="color:Tomato;">16 December 2022</h2>
+								<li><span style=" background-color:#C1F6BA; padding: 5px;">Expected Publication Date</span>
+									<h2 style="color:Tomato;">16 December 2022</h2>
 								</li>
 							</ul>
 						</div>
@@ -1468,44 +1383,63 @@
 				<div class="row">
 					<script type="text/javascript">
 						function check_required(field, alerttxt) {
-							with (field) {
-								if (value == null || value == "") { alert(alerttxt); return false; }
-								else { return true }
+							with(field) {
+								if (value == null || value == "") {
+									alert(alerttxt);
+									return false;
+								} else {
+									return true
+								}
 							}
 						}
+
 						function check_email(field, alerttxt) {
-							with (field) {
+							with(field) {
 
 								var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
 								if (!filter.test(value)) {
 									alert(alerttxt);
 									return false;
+								} else {
+									return true
 								}
-								else { return true }
 							}
 						}
+
 						function check_number(field, alerttxt) {
-							with (field) {
+							with(field) {
 								if (isNaN(value)) {
 									alert(alerttxt);
 									return false;
+								} else {
+									return true
 								}
-								else { return true }
 							}
 						}
-
 					</script>
 					<script type="text/javascript">
 						function validate_form(thisform) {
-							with (thisform) {
-								if (check_required(name, "Name must be filled out!") == false) { name.focus(); return false; }
+							with(thisform) {
+								if (check_required(name, "Name must be filled out!") == false) {
+									name.focus();
+									return false;
+								}
 
-								if (check_required(email, "Email must be filled out!") == false) { email.focus(); return false; }
+								if (check_required(email, "Email must be filled out!") == false) {
+									email.focus();
+									return false;
+								}
 
-								if (check_email(email, "Email is not in correct format!") == false) { email.focus(); return false; }
+								if (check_email(email, "Email is not in correct format!") == false) {
+									email.focus();
+									return false;
+								}
 
-								if (check_required(message, "Speaker Topic must be filled out!") == false) { message.focus(); return false; }
+								if (check_required(message, "Speaker Topic must be filled out!") == false) {
+									message.focus();
+									return false;
+								}
 
 							}
 						}
@@ -1517,7 +1451,7 @@
 			</div>
 		</div>
 
-	</div> <!-- /contactWrap -->
+	</div>
 
 	<footer>
 		<div class="container">
@@ -1565,8 +1499,7 @@
 
 
 	<script type="text/javascript">
-
-		$(document).ready(function () {
+		$(document).ready(function() {
 
 			$('.mobileSlider').flexslider({
 				animation: "slide",
@@ -1581,7 +1514,7 @@
 				directionNav: false
 			});
 
-			$('a[href*=#]:not([href=#])').click(function () {
+			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 					var target = $(this.hash);
 					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -1592,8 +1525,7 @@
 							}, 1000);
 							return false;
 						}
-					}
-					else {
+					} else {
 						if (target.length) {
 							$('html,body').animate({
 								scrollTop: target.offset().top - $('.navbar').outerHeight(true) + 1
@@ -1605,22 +1537,21 @@
 				}
 			});
 
-			$('#toTop').click(function () {
+			$('#toTop').click(function() {
 				$('html,body').animate({
 					scrollTop: 0
 				}, 1000);
 			});
 
 			var timer;
-			$(window).bind('scroll', function () {
+			$(window).bind('scroll', function() {
 				clearTimeout(timer);
 				timer = setTimeout(refresh, 50);
 			});
-			var refresh = function () {
+			var refresh = function() {
 				if ($(window).scrollTop() > 100) {
 					$(".tagline").fadeTo("slow", 0);
-				}
-				else {
+				} else {
 					$(".tagline").fadeTo("slow", 1);
 				}
 			};
