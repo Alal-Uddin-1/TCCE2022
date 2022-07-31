@@ -200,6 +200,7 @@ h3.sectionTitle {
     height: 0 auto;
     background-color: rgba(0, 0, 0, .5);
     background-blend-mode: multiply;
+    min-height: 700px;
 }
 
 .jumboText {
@@ -295,6 +296,10 @@ h3.sectionTitle {
 
 #featureWrap h3 {
     font-weight: 700;
+}
+
+.icon {
+    margin-top: 17px;
 }
 
 
@@ -704,4 +709,5 @@ footer .social a .fa-inverse {
 
 .journal-img {
     border-radius: 10px;
+    margin-bottom: 10px;
 }

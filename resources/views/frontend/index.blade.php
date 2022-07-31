@@ -243,7 +243,7 @@
 						<!-- <h2>About TCCE 2022</h2> -->
 						<p align="justify">
 							"TCCE" conference focuses on the empirical, experimental, theoretical and application aspects of various innovations in computational and cognitive engineering. It aims to provide an opportunity to share research findings among scholars, experts, specialists from academia and industry working in multidimentional areas of applied sciences, engineering and technologies. 1st TCCE was held in the Central University of Haryana (CUH), India. In this year, TCCE-2022 will be held in the Faculty of Engineering, Mawlana Bhashani Science and Technology University (MBSTU), Tangail, Bangladesh during 17-18 December, 2022.
-
+						</p>
 						<div class="row">
 							<div class="col-sm-4">
 								<ul class="priceTable">
@@ -337,95 +337,97 @@
 							</div>
 						</div>
 						<br>
+						<h2 align="center" style="color:#007ACC; font-weight: bold; margin:30px 0px 20px 0px;;">Objectives of the Conference</h2>
+						<p align="justify">With increasing complex situations being modelled to find reasonable
+							answers, role of computations and cognitive
+							learning is becoming very important. The objective of the conference is to narrow down
+							the gaps by bringing
+							practitioners and scientists together. so as to focus on the recent trends in
+							computational and cognitive
+							engineering. The conference will further help:</p>
+						<br>
 						<div class="row">
-							<h2 align="center" style="color:#007ACC; font-weight: bold; margin:30px 0px 20px 0px;;">Objectives of the Conference</h2>
-							<p align="justify">With increasing complex situations being modelled to find reasonable
-								answers, role of computations and cognitive
-								learning is becoming very important. The objective of the conference is to narrow down
-								the gaps by bringing
-								practitioners and scientists together. so as to focus on the recent trends in
-								computational and cognitive
-								engineering. The conference will further help:</p>
-							<br>
-							<div class="row">
-								<div class="col-md-2">
+							<div class="col-md-2">
 
+							</div>
+							<div class="col-md-8">
+								<table class="table table-hover">
+									<tr>
+										<td>
+											<p># To provide a forum for exchange of ideas and insights by mathematicians, engineers, scientists, and researchers</p>
+										<td>
+									</tr>
+									<tr>
+										<td>
+											<p># To share fresh perspective on problem-solving in current research areas</p>
+										<td>
+									</tr>
+									<tr>
+										<td>
+											<p># To present various computational and cognitive modelling approaches in the areas of health, education, finance, environment, engineering, commerce and industry</p>
+										<td>
+									</tr>
+									<tr>
+										<td>
+											<p># To promote networking opportunities among experts in various disciplines and encourage interdisciplinary research</p>
+										<td>
+									</tr>
+								</table>
+							</div>
+							<div class="col-md-2">
+
+							</div>
+						</div>
+						<div class="row text-center">
+							<div class="col-md-12">
+								<h2 style="margin:30px 0px 30px 0px; color:#007ACC; font-weight: bold;">Conference Publications and Special Issues</h2><br>
+								<div class="col-md-3">
+									<img class="journal-img" src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
 								</div>
-								<div class="col-md-8 offset-md-2">
-									<table class="table table-hover">
-										<tr>
-											<td># To provide a forum for exchange of ideas and insights by mathematicians, engineers, scientists, and researchers
-											<td>
-										</tr>
-										<tr>
-											<td># To share fresh perspective on problem-solving in current research areas
-											<td>
-										</tr>
-										<tr>
-											<td># To present various computational and cognitive modelling approaches in the areas of health, education, finance, environment, engineering, commerce and industry
-											<td>
-										</tr>
-										<tr>
-											<td># To promote networking opportunities among experts in various disciplines and encourage interdisciplinary research
-											<td>
-										</tr>
-
-									</table>
+								<div class="col-md-3">
+									<img class="journal-img" src="{{asset('frontend/assets/img/rithm.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
+								</div>
+								<div class="col-md-3">
+									<img class="journal-img" src="{{asset('frontend/assets/img/brain informatics.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
+								</div>
+								<div class="col-md-3">
+									<img class="journal-img" src="{{asset('frontend/assets/img/informatics.png')}}" alt="informatics" height="100px" width="250px" alt="..." class="rounded">
 								</div>
 							</div>
-							<div class="row text-center">
-								<div class="col-md-12">
-									<h2 style="margin:30px 0px 30px 0px; color:#007ACC; font-weight: bold;">Conference Publications and Special Issues</h2><br>
-									<div class="col-md-3">
-										<ul>
-											<img class="journal-img" src="{{asset('frontend/assets/img/lecture notes and networks.jpg')}}" alt="..." height="150px" width="150px" alt="...">
-										</ul>
-									</div>
-									<div class="col-md-3">
-										<img class="journal-img" src="{{asset('frontend/assets/img/rithm.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
-									</div>
-									<div class="col-md-3">
-										<img class="journal-img" src="{{asset('frontend/assets/img/brain informatics.jpg')}}" alt="..." height="150px" width="150px" alt="..." class="rounded">
-									</div>
-									<div class="col-md-3">
-										<img class="journal-img" src="{{asset('frontend/assets/img/informatics.png')}}" alt="informatics" height="100px" width="250px" alt="..." class="rounded">
+						</div>
+						<div class="row text-center" style="margin-top:40px;">
+							<div class="col-md-12">
+								<div class="col-md-4">
+									<div class="card">
+										<div class="card-header">
+											<h2>Support Partner</h2>
+										</div>
+										<div class="card-body">
+											<a href="http://www.acslab.info/">
+												<img class="journal-img" src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row text-center" style="margin-top:40px;">
-								<div class="col-md-12">
-									<div class="col-md-4">
-										<div class="card">
-											<div class="card-header">
-												<h2>Support Partner</h2>
-											</div>
-											<div class="card-body">
-												<a href="http://www.acslab.info/">
-													<img class="journal-img" src="{{asset('frontend/assets/img/acsieee.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
-												</a>
-											</div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="card-header">
+											<h2>Publication Partner</h2>
+										</div>
+										<div class="card-body">
+											<a href="http://www.acslab.info/">
+												<img class="journal-img" src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px" width="350px" class="rounded float-left">
+											</a>
 										</div>
 									</div>
-									<div class="col-md-4">
-										<div class="card">
-											<div class="card-header">
-												<h2>Publication Partner</h2>
-											</div>
-											<div class="card-body">
-												<a href="http://www.acslab.info/">
-													<img class="journal-img" src="{{asset('frontend/assets/img/springer.jpeg')}}" alt="..." height="120px" width="350px" class="rounded float-left">
-												</a>
-											</div>
+								</div>
+								<div class="col-md-4">
+									<div class="card">
+										<div class="card-header">
+											<h2>Other Support</h2>
 										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="card">
-											<div class="card-header">
-												<h2>Other Support</h2>
-											</div>
-											<div class="card-body">
-												<img class="journal-img" src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
-											</div>
+										<div class="card-body">
+											<img class="journal-img" src="{{asset('frontend/assets/img/ieee-student-branch-mbstu.png')}}" alt="..." height="120px" width="350px" class="rounded float-left">
 										</div>
 									</div>
 								</div>
@@ -991,23 +993,19 @@
 	<div class="container">
 		<div class="row" style="text-align: center; margin: 40px 0 40px 0;">
 
-			<h2 class="sectionTitle">Financial Support</h2>
-			<div class="col-md-2">
+			<div class="col-md-12">
+				<h2 class="sectionTitle">Financial Support</h2>
+				<div class="imgWrap">
+					<img class="img-responsive" src="{{asset('frontend/assets/img/ugc.jpg')}}" style="border-radius: 10px;" alt="...">
+				</div>
 			</div>
-			<div class="col-md-8">
-				<img src="{{asset('frontend/assets/img/ugc.jpg')}}" style="border-radius: 10px; width:500px%; height:400px;" alt="...">
-			</div>
-			<div class="col-md-2">
-			</div>
-
-
 		</div>
 	</div>
 
 	<div id="modes" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row" style="margin-bottom: 50px;">
-				<div class="col-xs-12">
+				<div class="col-md-12">
 					<h2 class="sectionTitle">Mode of Conference</h2>
 
 					<div class="imgWrap">
@@ -1060,54 +1058,59 @@
 				</div>
 				<div class="col-md-6">
 					<div class="productFeatures clearfix">
-						<div class="col-xs-2 icon">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
-							</span>
+						<div class="row">
+							<div class="col-md-2 icon">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-trophy fa-stack-1x fa-inverse"></i>
+								</span>
+							</div>
+							<div class="col-md-10">
+								<h3>MBSTU Beauty</h3>
+								<p align="justify">The topography of the land with Mawlana Bhashani Science and
+									Technology University's gentle and plains is sooting to the eye. The Prottoy Ekattor
+									statue is situated in our campus. MBSTU is covered with various natural sceneries Like
+									It has a pond which called is "Shahjaman Dighi" and "Hatir kobor", "Playground" etc. The
+									most notification is that The tomb of Majlum Jananeta Mawlana Abdul Hamid Khan bhashani
+									which is situated in the campus. There are a lots of beautiful sceneries which attract
+									visitors like 'Bijoy Angon', 'Mukto Monch' etc. Many people visit this campus everyday.
+									The beauty of this our university attracts tourists.</p>
+							</div>
 						</div>
-						<div class="col-xs-10">
-							<h3>MBSTU Beauty</h3>
-							<p align="justify">The topography of the land with Mawlana Bhashani Science and
-								Technology University's gentle and plains is sooting to the eye. The Prottoy Ekattor
-								statue is situated in our campus. MBSTU is covered with various natural sceneries Like
-								It has a pond which called is "Shahjaman Dighi" and "Hatir kobor", "Playground" etc. The
-								most notification is that The tomb of Majlum Jananeta Mawlana Abdul Hamid Khan bhashani
-								which is situated in the campus. There are a lots of beautiful sceneries which attract
-								visitors like 'Bijoy Angon', 'Mukto Monch' etc. Many people visit this campus everyday.
-								The beauty of this our university attracts tourists.</p>
+						<div class="row">
+							<div class="col-md-2 icon">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-cog fa-stack-1x fa-inverse"></i>
+								</span>
+							</div>
+							<div class="col-md-10">
+								<h3>Cultural Activities</h3>
+								<p align="justify">Cultural activities at Mawlana Bhashani Science and Technology
+									University are performed mostly at Muktomancha. There is a music band like
+									drubatara.
+									There are two auditoriums which one is under Criminology and Police Science
+									Department and
+									another is under Environmental Science and Resource Management Department.
+								</p>
+							</div>
 						</div>
-						<div class="col-xs-2 icon">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-cog fa-stack-1x fa-inverse"></i>
-							</span>
-						</div>
-						<div class="col-xs-10">
-							<h3>Cultural Activities</h3>
-							<p align="justify">Cultural activities at Mawlana Bhashani Science and Technology
-								University are performed mostly at Muktomancha. There is a music band like
-								drubatara.
-								There are two auditoriums which one is under Criminology and Police Science
-								Department and
-								another is under Environmental Science and Resource Management Department.
-
-							</p>
-						</div>
-						<div class="col-xs-2 icon">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-bars fa-stack-1x fa-inverse"></i>
-							</span>
-						</div>
-						<div class="col-xs-10">
-							<h3>Residential System</h3>
-							<p align="justify">Mawlana Bhashani Science and Technology University with a half-dozen
-								residential halls and a few more under construction is mandated to provide residential
-								accommodation to each and every student with separate halls for the
-								female students. Each hall has its own administrative system headed by a Provost and
-								is equipped with facilities like playground, rooms for indoor games, the dining
-								hall etc.</p>
+						<div class="row">
+							<div class="col-md-2 icon">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-bars fa-stack-1x fa-inverse"></i>
+								</span>
+							</div>
+							<div class="col-md-10">
+								<h3>Residential System</h3>
+								<p align="justify">Mawlana Bhashani Science and Technology University with a half-dozen
+									residential halls and a few more under construction is mandated to provide residential
+									accommodation to each and every student with separate halls for the
+									female students. Each hall has its own administrative system headed by a Provost and
+									is equipped with facilities like playground, rooms for indoor games, the dining
+									hall etc.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1116,73 +1119,133 @@
 	</div>
 
 	<div id="scope" style="padding-top:50px">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h2 class="sectionTitle">Scope of the Conference</h2><br>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="sectionTitle">Scope of the Conference</h2><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="card">
+					<div class="card-header">
+						<h1 class="text-center">Cognitive Science</h1>
+					</div>
+					<div class="card-body">
+						<table class="table table-hover text-center">
+							<tr>
+								<td>
+									Cognitive Psychology and Cognitive Neuroscience
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Computational Neuroscience
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Artificial Intelligence, Soft Computing
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Signal Processing
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Cryptography, Image Processing, Coding Theory
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-6">
-
-					<ul class="priceTable">
-						<ul class="features scope">
-							<li>Cognitive Science: Cognitive Psychology and Cognitive Neuroscience</li>
-							<li>Computational Neuroscience</li>
-							<li>Artificial Intelligence, Soft Computing</li>
-							<li>Signal Processing</li>
-							<li>Cryptography: Image Processing, Coding Theory</li>
-						</ul>
-					</ul>
-				</div>
-
-				<div class="col-sm-6">
-					<ul class="priceTable">
-						<ul class="features scope">
-
-							<li>Optimization: Theory and Applications</li>
-							<li>Information Retrieval and Applications</li>
-							<li>Health informatics</li>
-							<li>Modelling and Numerical Simulation: Mathematical Biology, Green Computing</li>
-							<li>Distributed and Cloud Computing</li>
-						</ul>
-
-					</ul>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="card">
+					<div class="card-header">
+						<h1 class="text-center">Optimization</h1>
+					</div>
+					<div class="card-body">
+						<table class="table table-hover text-center">
+							<tr>
+								<td>
+									Theory and Applications
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Information Retrieval and Applications
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Health informatics
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="card">
+					<div class="card-header">
+						<h1 class="text-center">Modelling and Numerical Simulation</h1>
+					</div>
+					<div class="card-body">
+						<table class="table table-hover text-center">
+							<tr>
+								<td>
+									Mathematical Biology, Green Computing
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Distributed and Cloud Computing
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 	</div>
 
 	<div id="cfp" class="altWrap" style="padding-top:50px">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-md-12">
 					<h2 class="sectionTitle">Call For Paper</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6 text-center feature">
-					<i class="fa fa-tablet icon"></i>
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center">
+					<i class="fa fa-tablet fa-4x"></i>
 					<h3>CALL FOR PAPERS</h3>
 					<p>
-
-						You may download pdf formats of the call for paper from the following links: <a href="{{asset('frontend/files/TCCE-2022-call-for-paper.pdf')}}" target="_blank">click here</a>
+						You may download pdf formats of the call for paper from the following link: <a href="{{asset('frontend/files/TCCE-2022-call-for-paper.pdf')}}" target="_blank">click here</a>
 					</p>
-					<!--
-					<a href="{{asset('frontend/files/cfp(modified).jpg')}}" target="_blank"><button name="submit" type="button"
-							class="btn btn-primary btn-lg">Download</button>
-					</a>
-					-->
 				</div>
-				<div class="col-sm-6 text-center feature">
-					<i class="fa fa-pencil icon"></i>
+				<div class="col-md-2"></div>
+				<!-- <div class="col-md-6 text-center ">
+					<i class="fa fa-pencil fa-xl"></i>
 					<h3>CALL FOR TUTORIALS AND WORKSHOP</h3>
 					<p align="center">
 						Proposals for tutorials and workshops are solicited on hot topics for
 						future wireless communications systems and applications.
 					</p>
-				</div>
-
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -1201,7 +1264,7 @@
 					preparing the final manuscript in camera-ready submission, the maximum
 					page limit set by the springer is 10.</em></h3>
 			<p align="justify">All accepted papers will be published by Springer as a volume of the series of
-				Springer Nature AISC.</p>
+				Springer Nature AISC. (SCOPUS indexed)</p>
 
 			<h3><b>Template:</b></h3>
 
@@ -1322,13 +1385,13 @@
 				<li>Rhythm Engineering, Springer-Nature (<a href="https://www.springer.com/series/16136" target="_blank">https://www.springer.com/series/16136</a>)</li>
 				<li>Entropy, MDPI (<a href="https://www.mdpi.com/journal/entropy" target="_blank">https://www.mdpi.com/journal/entropy</a>) [IF:2.494] (APC required)</li>
 				<li>Big data Analytics, BMC (<a href="https://bdataanalytics.biomedcentral.com/" target="_blank">https://bdataanalytics.biomedcentral.com/</a>) (APC required)</li>
-				<li>International Journal of Ambient Computing and Intelligence (IJACI), IGI (<a href="https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110" target="_blank">https://www.igi-global.com/calls-for-papers-special/international-journal-ambient-computing-intelligence/1110</a>)
+				<li>International Journal of Ambient Computing and Intelligence (IJACI), IGI (<a href="https://www.igi-global.com/journal/international-journal-ambient-computing-intelligence/1110" target="_blank">https://www.igi-global.com/journal/international-journal-ambient-computing-intelligence/1110</a>)
 					[ESCI]</li>
 
 			</ul>
 			<br>
 			</p>
-			<a href="https://myproconf.org/conferences/tcce-2022/app/login.php" class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission
+			<a href="#" class="btn btn-primary disabled" target="_blank">Submit Camera Ready Submission
 			</a>
 			</p>
 
@@ -1340,12 +1403,12 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12">
-						<h2 class="sectionTitle">Important Dates</h2>
+					<div class="col-md-12">
+						<h2 class="sectionTitle">IMPORTANT DATES</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 text-center">
+					<div class="col-md-12 text-center">
 						<div class="blurb">
 							<ul style="list-style-type:none;">
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Paper Submission Deadline</span>
@@ -1367,87 +1430,14 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
+				<br>
+				<br>
 				<style>
 					a {
 						color: #069FDF;
 						cursor: pointer;
 					}
 				</style>
-
-
-
-				<div class="row">
-					<script type="text/javascript">
-						function check_required(field, alerttxt) {
-							with(field) {
-								if (value == null || value == "") {
-									alert(alerttxt);
-									return false;
-								} else {
-									return true
-								}
-							}
-						}
-
-						function check_email(field, alerttxt) {
-							with(field) {
-
-								var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-
-								if (!filter.test(value)) {
-									alert(alerttxt);
-									return false;
-								} else {
-									return true
-								}
-							}
-						}
-
-						function check_number(field, alerttxt) {
-							with(field) {
-								if (isNaN(value)) {
-									alert(alerttxt);
-									return false;
-								} else {
-									return true
-								}
-							}
-						}
-					</script>
-					<script type="text/javascript">
-						function validate_form(thisform) {
-							with(thisform) {
-								if (check_required(name, "Name must be filled out!") == false) {
-									name.focus();
-									return false;
-								}
-
-								if (check_required(email, "Email must be filled out!") == false) {
-									email.focus();
-									return false;
-								}
-
-								if (check_email(email, "Email is not in correct format!") == false) {
-									email.focus();
-									return false;
-								}
-
-								if (check_required(message, "Speaker Topic must be filled out!") == false) {
-									message.focus();
-									return false;
-								}
-
-							}
-						}
-					</script>
-
-				</div>
-
-
 			</div>
 		</div>
 
@@ -1498,9 +1488,8 @@
 	<script src="{{asset('frontend/2015/js/flexslider.html')}}"></script>
 
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		$(document).ready(function() {
-
 			$('.mobileSlider').flexslider({
 				animation: "slide",
 				slideshowSpeed: 3000,
@@ -1557,9 +1546,7 @@
 			};
 
 		});
-	</script>
+	</script> -->
 </body>
-
-<!-- Mirrored from tcce.iitju.edu.bd/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Feb 2022 10:05:46 GMT -->
 
 </html>
