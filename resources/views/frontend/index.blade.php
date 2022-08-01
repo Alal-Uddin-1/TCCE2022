@@ -34,23 +34,18 @@
 
 	<link href="{{asset('frontend/css/styles.css')}}" rel="stylesheet">
 
-	<script src="../ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<script src="../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-	<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -60,8 +55,7 @@
 					<img class="brand-logo" src="{{asset('frontend/assets/img/tcce-logo.png')}}" />
 					TCCE<span class="title rf"> 2022</span>
 				</a>
-			</div>
-			<div class="collapse navbar-collapse appiNav">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="nav navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#about_tcce_2022">TCCE 2022</a></li>
 					<!--<li><a href="#testimonialsWrap"></a></li>-->
@@ -87,13 +81,13 @@
 						Engineering (TCCE-2022)</h2>
 					<br>
 					<br>
-					<h2 style="color:white; font-weight:bold; text-align:center;">17-18 December 2022</h2>
+					<h2 style="color:white; font-weight:bold; text-align:center;">18-19 December 2022</h2>
 					<h2 style="color:white; font-weight:bold; text-align:center;">Mawlana Bhashani Science and Technology University, Tangail,
 						Bangladesh</h2>
 					<h2 style="color:white; text-align:center;"><strong> Conference Mode: Hybrid</strong></h2>
 
 					<br>
-					<h2 class="text-center"><a style="margin-bottom:-10px; background-color:#007ACC; color: white; text-align:center;" class="btn btn-lg actionBtn" href="files/TCCE 2022_MAH.pptx.pdf" target="_blank"><i class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual Sessions</a></h2>
+					<!-- <h2 class="text-center"><a style="margin-bottom:-10px; background-color:#007ACC; color: white; text-align:center;" class="btn btn-lg actionBtn" href="files/TCCE 2022_MAH.pptx.pdf" target="_blank"><i class="fa fa-mobile fa-2x pull-left"></i><span class="line2">See Virtual Sessions</a></h2> -->
 					<!--
 				<h2 align="center"><a style="margin-bottom:-10px; width:180px;" class="btn btn-lg btn-success actionBtn"
 						href="tcce2022_final-program.pdf" target="_blank"><i
@@ -127,7 +121,7 @@
 										<b>Acceptance Notification:</b>
 										01 October 2022 <br>
 										<b>Camera Ready Submission:</b>
-										10 October 2022 <br>
+										12 October 2022 <br>
 										<b>Registration Period:</b>
 										01 Oct 2022 - 10 Oct 2022
 									</p>
@@ -138,11 +132,11 @@
 									<p class="card-text">
 										<b>For wire transfer:</b><br>
 
-										Account Name: <b>TCCE-2022</b><br>
+										Account Name: <b>TBA</b><br>
 
-										Current Account No: <b>60301000WXYZ</b><br>
+										Current Account No: <b>TBA</b><br>
 
-										Bank Routing No: <b>200931490</b><br>
+										Bank Routing No: <b>TBA</b><br>
 
 										Sonali Bank Limited<br>
 
@@ -205,7 +199,8 @@
 										Certificate of Participation and a Conference kit</h4>
 									</p>
 
-									<a href="#" target="_blank" class="btn btn-primary">Click Here for Registration</a>
+									<a href="#" target="_blank" class="btn btn-primary" disabled>Click Here for Registration</a>
+									
 								</div>
 							</div>
 
@@ -231,8 +226,8 @@
 											by 12 October</b></p>
 									-->
 
-									<a class="btn btn-primary" target="_blank">Apply for Grant</a>
-									<!--link of apply for grant(href="https://docs.google.com/forms/d/e/1FAIpQLSd_935mFTsmgG2cLbUbtqJIur2OzBiFEwat0Eog9EbeLgxfQA/viewform")-->
+									<a class="btn btn-primary" target="_blank" disabled>Apply for Grant</a>
+
 								</div>
 							</div>
 						</div>
@@ -843,7 +838,7 @@
 							<li>Md. Roshidul Hasan<br>CS&IT, BSMRAU</li>
 							<li>Md. Obaidur Rahman<br>IICT, DUET</li>
 							<li>M. Mahbubur Rahman<br>CSIT, IU</li>
-							<li>alamgir Hossain<br>Teesside University, UK</li>
+							<li>Alamgir Hossain<br>Teesside University, UK</li>
 							<li>Anirban Bandyopadhyay<br>NIMS, Japan</li>
 							<li>Ayman Alfalou<br>University of Brittany, France</li>
 							<li>Ekram Hossain<br>University of Manitoba, Canada</li>
@@ -1233,9 +1228,7 @@
 				<div class="col-md-8 text-center">
 					<i class="fa fa-tablet fa-4x"></i>
 					<h3>CALL FOR PAPERS</h3>
-					<p>
-						You may download pdf formats of the call for paper from the following link: <a href="{{asset('frontend/files/TCCE-2022-call-for-paper.pdf')}}" target="_blank">click here</a>
-					</p>
+					<p>Please submit your work here: <a href="https://myproconf.com/conferences/tcce-2022/" target="_blank">click here</a></p>
 				</div>
 				<div class="col-md-2"></div>
 				<!-- <div class="col-md-6 text-center ">
@@ -1418,7 +1411,7 @@
 									<h2 style="color:Tomato;">01 October 2022</h2>
 								</li>
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Camera Ready Submission </span>
-									<h2 style="color:Tomato;">10 October 2022</h2>
+									<h2 style="color:Tomato;">12 October 2022</h2>
 								</li>
 								<li><span style=" background-color:#C1F6BA; padding: 5px;">Registration Period </span>
 									<h2 style="color:Tomato;">01 Oct - 10 Oct 2022</h2>
@@ -1478,75 +1471,6 @@
 			</div>
 		</div>
 	</footer>
-
-
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="{{asset('frontend/2015/js/jquery.min.html')}}"></script>
-	<script src="{{asset('frontend/2015/js/bootstrap.min.html')}}"></script>
-	<script src="{{asset('frontend/2015/js/flexslider.html')}}"></script>
-
-
-	<!-- <script type="text/javascript">
-		$(document).ready(function() {
-			$('.mobileSlider').flexslider({
-				animation: "slide",
-				slideshowSpeed: 3000,
-				controlNav: false,
-				directionNav: true,
-				prevText: "&#171;",
-				nextText: "&#187;"
-			});
-			$('.flexslider').flexslider({
-				animation: "slide",
-				directionNav: false
-			});
-
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-					if ($(window).width() < 768) {
-						if (target.length) {
-							$('html,body').animate({
-								scrollTop: target.offset().top - $('.navbar-header').outerHeight(true) + 1
-							}, 1000);
-							return false;
-						}
-					} else {
-						if (target.length) {
-							$('html,body').animate({
-								scrollTop: target.offset().top - $('.navbar').outerHeight(true) + 1
-							}, 1000);
-							return false;
-						}
-					}
-
-				}
-			});
-
-			$('#toTop').click(function() {
-				$('html,body').animate({
-					scrollTop: 0
-				}, 1000);
-			});
-
-			var timer;
-			$(window).bind('scroll', function() {
-				clearTimeout(timer);
-				timer = setTimeout(refresh, 50);
-			});
-			var refresh = function() {
-				if ($(window).scrollTop() > 100) {
-					$(".tagline").fadeTo("slow", 0);
-				} else {
-					$(".tagline").fadeTo("slow", 1);
-				}
-			};
-
-		});
-	</script> -->
 </body>
 
 </html>
